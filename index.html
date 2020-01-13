@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WEG Learning Hub</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/global_2.css">
+    <link rel="icon" type="image/svg+xml" href="./assets/linkIcon.ico">
+
+
+</head>
+<body>
+
+    
+    <div id="NoScript">
+
+
+        <h1>!! WARNING !!</h1>
+        <p>This site must have the Java Script enabled</p>
+        <p>This site does not work with Internet Explorer</p>
+        <p>Copy the link and try to open this in Google Chrome or Mozilla Firefox</p>
+        
+        <img src="./assets/weglogo.svg" alt="" srcset="">
+    </div>
+
+    
+    <div class="container">
+
+        <header class="row">
+        
+            <div id="menuLogo" class="col-4">
+                <img src="Assets/weglogowhite.svg" class=""></img>
+                <div>LEARNING HUB</div> 
+            </div>    
+            
+            <div id="menuGroups" class="col-8"></div>
+        </header>
+
+        <main class="row">
+
+            <div id="leftSide" class="col-3">
+
+                <div class="card shadow">
+                    <div class="card-header">
+                        <input type="input" class="form-control text-box single-line" id="txtSearch" name="txtSearch" onkeyup="setFilterData(txtSearch.value)" placeholder="Search"/>
+
+                    </div>
+
+                    <div class="card-body">                        
+                        <div id="accordion"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="curseBox" class="col-9" hidden>
+                <div class="card shadow">
+                    
+                    <div class="card-header">
+                        <div class="row"> 
+                            <div class="col-10">
+                                <a id="curseTitle" class="card-title"></a>
+                            </div>
+
+                            <div class="col-2 ">
+                                <img id="curseLink" src="./Assets/linkIcon.svg" alt="Copy Curse Link" srcset="" onclick="CopyTextToClipboard(GetCurseUrl())">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 id="curseSubTitle" class="card-title"></h5>
+                        <ul id="curseTopics"></ul>
+
+                        <div id="curseVideo"class="embed-responsive embed-responsive-16by9"></div>
+                    </div>
+
+                    <div class="card-footer text-muted">
+                        <span id="curseAuthor">dionei J. Delagnolo</span>
+                        <span id="curseDate">2019/oct</span>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </div>
+
+
+
+
+    <script src="./src/Database.js"></script>
+    <script src="./src/Drawer.js"></script>
+    <script src="./src/Controller.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script>        
+
+        const cont = document.getElementById('NoScript')
+        cont.style.display = 'none'
+        if(!!window.MSInputMethodContext && !!document.documentMode) {
+            cont.style.display = ''
+        }
+
+        
+
+
+        Initial()
+    </script>
+
+</body>
+</html>
