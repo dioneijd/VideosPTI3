@@ -173,3 +173,31 @@ function DrawCurseContent(){
 }
 
 
+
+function ShowAlert(msgObj){
+	const {message, time, msgType } = msgObj
+
+	const alertMessage = document.getElementById('alertMessage')
+
+	let alertClass = 'alert-primary'
+	if (msgType == 'E') {
+		alertClass = 'alert-danger'
+	} else if (msgType == 'W') {
+		alertClass = 'alert-warning'
+	} 
+
+	
+	alertMessage.innerHTML += `
+		<div class="alert ${alertClass} alert-dismissible fade show" role="alert">
+			<strong>${message}</strong>
+			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+		</div>
+	`
+	
+	setTimeout(function() {
+		$('.alert').alert('close')
+	}, time ? time : 5000 )
+}
+

@@ -18,7 +18,6 @@
     
     <div id="NoScript">
 
-
         <h1>!! WARNING !!</h1>
         <p>This site must have the Java Script enabled</p>
         <p>This site does not work with Internet Explorer</p>
@@ -27,8 +26,16 @@
         <img src="./assets/weglogo.svg" alt="" srcset="">
     </div>
 
+
+
+    <div id="alertMessage">
+    </div>
+
+
+    <div class="container">        
+         
+
     
-    <div class="container">
 
         <header class="row">
         
@@ -38,25 +45,28 @@
             </div>    
             
             <div id="menuGroups" class="col-8"></div>
+
         </header>
+
+
+        
+
 
         <main class="row">
 
             <div id="leftSide" class="col-3">
-
                 <div class="card shadow">
-                    <div class="card-header">
-                        <input type="input" class="form-control text-box single-line" id="txtSearch" name="txtSearch" onkeyup="setFilterData(txtSearch.value)" placeholder="Search"/>
-
-                    </div>
-
-                    <div class="card-body">                        
+                    <div class="card-body">
+                        <input type="input" class="form-control text-box single-line" id="txtSearch" name="txtSearch" onkeyup="setFilterData(txtSearch.value)" placeholder="Search"/>                        
+                        <hr>
                         <div id="accordion"></div>
                     </div>
                 </div>
             </div>
 
             <div id="curseBox" class="col-9" hidden>
+
+               
                 <div class="card shadow">
                     
                     <div class="card-header">
@@ -66,10 +76,12 @@
                             </div>
 
                             <div class="col-2 ">
-                                <img id="curseLink" src="./Assets/linkIcon.svg" alt="Copy Curse Link" srcset="" onclick="CopyTextToClipboard(GetCurseUrl())">
+                                <img id="curseLink" src="./Assets/linkIcon.svg" alt="Copy Curse Link" srcset="" onclick="CopyCurseLink()">
                             </div>                            
                         </div>
                     </div>
+
+                    
                     <div class="card-body">
                         <h5 id="curseSubTitle" class="card-title"></h5>
                         <ul id="curseTopics"></ul>
@@ -92,6 +104,8 @@
 
     </div>
 
+    
+    
 
 
 

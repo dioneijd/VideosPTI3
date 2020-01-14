@@ -83,8 +83,6 @@ function Initial(){
 
 
 
-
-
 function FilterCurses(filterData) {
     const curses = State.curses.filter(curse => {
         const textToFilter = filterData.toLowerCase()
@@ -145,3 +143,13 @@ function CopyTextToClipboard(text){
 	document.body.removeChild(el);
 }
 
+function CopyCurseLink(){
+    const curseUrl = GetCurseUrl()
+    
+    if (curseUrl) {
+        CopyTextToClipboard(curseUrl)
+        ShowAlert({message: 'Link was copied'})
+    } else {
+        ShowAlert({message: 'ERROR: it was not possible to create the link'})
+    }
+}

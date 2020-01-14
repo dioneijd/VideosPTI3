@@ -50,6 +50,24 @@ body {
 
 
 
+#alertMessage {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+
+#alertMessage .alert{
+    width: auto;
+    z-index: 99;
+}
+
+
 
 .container{
     padding-top: 15px;
@@ -115,11 +133,11 @@ header #menuGroups .btn.active {
 }
 
 
-
+/* 
 
 main #leftSide .card-header{
     background-color: white;
-}
+} */
 
 
 main #accordion {
