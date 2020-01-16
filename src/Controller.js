@@ -80,48 +80,21 @@ function Initial(){
 
 }
 
-// function FilterCurses(filterData) {
-
-//     if (filterData == '') {
-//         const options = {
-//             shouldSort: true,
-//             threshold: 0.6,
-//             location: 0,
-//             distance: 100,
-//             maxPatternLength: 32,
-//             minMatchCharLength: 1,
-//             keys: [
-//                 "id",
-//                 "title",
-//                 "subTitle"
-//             ]
-//         };
-    
-//         const fuse = new Fuse(list, options);
-
-//         return fuse.search(filterData)
-
-//     } else {
-//         return State.curses
-//     }
-
-// }
-
 
 
 function FilterCurses(filterData) {
     const curses = State.curses.filter(curse => {
-        let textToFilter = filterData.toLowerCase()
+        let textToFilter = replaceSpecialChar(filterData.toLowerCase())
 
-        if (curse.title.toLowerCase().includes(textToFilter)){
+        if (replaceSpecialChar(curse.title.toLowerCase()).includes(textToFilter)){
             return true
         }
 
-        if (curse.subTitle && curse.subTitle.toLowerCase().includes(textToFilter)){
+        if (curse.subTitle && replaceSpecialChar(curse.subTitle.toLowerCase()).includes(textToFilter)){
             return true
         }
 
-        if (curse.author && curse.author.toLowerCase().includes(textToFilter)){
+        if (curse.author && replaceSpecialChar(curse.author.toLowerCase()).includes(textToFilter)){
             return true
         }
 
@@ -186,6 +159,7 @@ function replaceSpecialChar(text){
     newText = newText.replace('ç', 'c')
     newText = newText.replace('ã', 'a')
     newText = newText.replace('õ', 'o')
+    newText = newText.replace('ñ', 'n')
     newText = newText.replace('à', 'a')
     newText = newText.replace('è', 'e')
     newText = newText.replace('ì', 'i')
@@ -196,6 +170,7 @@ function replaceSpecialChar(text){
     newText = newText.replace('í', 'i')
     newText = newText.replace('ó', 'o')
     newText = newText.replace('ú', 'u')
+    newText = newText.replace('ü', 'u')
 
     return newText
 
