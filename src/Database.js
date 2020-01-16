@@ -1,4 +1,4 @@
- 
+﻿ 
     
     
     
@@ -11,7 +11,7 @@
                 {
                     id: 1, 
                     desc: 'BASICS',
-                    curseIds: []
+                    curseIds: [135]
                 },
                 {
                     id: 2, 
@@ -21,7 +21,7 @@
                 {
                     id: 3, 
                     desc: 'SALES',
-                    curseIds: []
+                    curseIds: [79, 80, 81, 82, 83, 84, 85, 86]
                 },
                 {
                     id: 4, 
@@ -36,7 +36,7 @@
                 {
                     id: 6, 
                     desc: 'PURCHASES',
-                    curseIds: []
+                    curseIds: [73]
                 },
                 {
                     id: 7, 
@@ -81,7 +81,7 @@
                 {
                     id: 15, 
                     desc: 'COSTS',
-                    curseIds: []
+                    curseIds: [74, 75, 76, 77, 78]
                 }
 
             ]
@@ -1221,11 +1221,847 @@
 			author: 'Fabio Arakava',
             lang: ['PT'],
 			postedOn: '20200113'
+		},
+
+        	{
+			id: 73,
+			active: true,
+			title: 'How to mack collecive release',
+			video: {
+				url: 'videos/073Howtomakecollectiverelease_MM.mp4',
+				type: 'mp4'
+			},
+			author: 'Celso Rosa',
+            lang: ['EN'],
+			postedOn: '14.01.2020'
+		},
+
+		{
+			id: 74,
+			active: true,
+			title: 'Acess report CPVA',
+			video: {
+				url: 'videos/074CPVABOAccessFI.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 75,
+			active: true,
+			title: 'Filter by report data CPVA',
+			video: {
+				url: 'videos/075CPVABOFilterbyReportData_FI.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 76,
+			active: true,
+			title: 'Filter by Productor Customer CPVA',
+			video: {
+				url: 'videos/076CPVABOFilterbyProductorCustomer_FI.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 77,
+			active: true,
+			title: 'Filters in Refresh CPVA',
+			video: {
+				url: 'videos/077CPVABOFiltersinRefresh_FI.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 78,
+			active: true,
+			title: 'Reports CPVA ',
+			video: {
+				url: 'videos/078CPVA_BO_Reports_FI.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 79,
+			active: true,
+			title: 'Customer Master Data',
+			video: {
+				url: 'videos/079CustomerMasterData_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 80,
+			active: true,
+			title: 'Terms and Conditions for quotation',
+			video: {
+				url: 'videos/080SO10_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 81,
+			active: true,
+			title: 'Navigating through the sales order',
+			video: {
+				url: 'videos/081Navigatingthroughthesalesorder_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 82,
+			active: true,
+			title: 'SALES CONTRACT- VA41' ,
+			video: {
+				url: 'videos/082VA41_SALESCONTRACT_V1_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 83,
+			active: true,
+			title: 'IDOC Orders Monitor - ZTSD257 ',
+			video: {
+				url: 'videos/083ZTSD257IDOCOrdersMonitor_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 84,
+			active: true,
+			title: 'Sales contract follow-up ZTSD297',
+			video: {
+				url: 'videos/084ZTSD297Salescontractfollowup_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 85,
+			active: true,
+			title: 'Saneamento Visões Vendas',
+			video: {
+				url: 'videos/085SaneamentoVisõesVendas_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['PT'],
+			postedOn: '15.01.2020'
+		},
+
+		{
+			id: 86,
+			active: true,
+			title: 'Outbound delivery Monitor - VL10G',
+			video: {
+				url: 'videos/086VL10GOutbounddeliveryMonitor_V1_SD.mp4',
+				type: 'mp4'
+			},
+			author: '',
+            lang: ['EN'],
+			postedOn: '15.01.2020'
+		},
+		
+		{
+		id: 87,
+		active: true,
+		title: '087VF04Billingdocumentmonitor_V1_SD',
+		video: {
+		url: 'videos/087VF04Billingdocumentmonitor_V1_SD.mp4',
+		type: 'mp4'
+		},
+		author: '',
+		lang: [''],
+		postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 88,
+			active: true,
+			title: '088How tocheckpurchasingdocuments_MM',
+			video: {
+				url: 'videos/088How tocheckpurchasingdocuments_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 89,
+			active: true,
+			title: '089MB1B_MM',
+			video: {
+				url: 'videos/089MB1B_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 90,
+			active: true,
+			title: '090XK01_MM',
+			video: {
+				url: 'videos/090XK01_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 91,
+			active: true,
+			title: '091ZTMM173_MM',
+			video: {
+				url: 'videos/091ZTMM173_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 92,
+			active: true,
+			title: '092MI01Howtocreatephysicalinventorydocument_MM',
+			video: {
+				url: 'videos/092MI01Howtocreatephysicalinventorydocument_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 92,
+			active: true,
+			title: '092MI07_MI20Howopostinventorycount_MM',
+			video: {
+				url: 'videos/092MI07_MI20Howopostinventorycount_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 93,
+			active: true,
+			title: '093MI04Howtoenterphysicalinventorycount_MM',
+			video: {
+				url: 'videos/093MI04Howtoenterphysicalinventorycount_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 94,
+			active: true,
+			title: '094ME51NHowtocreateaPurchaseRequisition_MM',
+			video: {
+				url: 'videos/094ME51NHowtocreateaPurchaseRequisition_MM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 95,
+			active: true,
+			title: '095CL30NMaterialsSearchbyClass_PLM',
+			video: {
+				url: 'videos/095CL30NMaterialsSearchbyClass_PLM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 96,
+			active: true,
+			title: '096ZTMM069HowtoTrackWorkflowofMaterialMasterData_MDM',
+			video: {
+				url: 'videos/096ZTMM069HowtoTrackWorkflowofMaterialMasterData_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 97,
+			active: true,
+			title: '097ZTMM020HowtoExpandMaterialMasterData_MDM',
+			video: {
+				url: 'videos/097ZTMM020HowtoExpandMaterialMasterData_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 98,
+			active: true,
+			title: '098ZTMM020HowtoChangeMaterialMasterData_MDM',
+			video: {
+				url: 'videos/098ZTMM020HowtoChangeMaterialMasterData_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 99,
+			active: true,
+			title: '099ZTMM020HowtoElimanteMaterialMasterData_MDM',
+			video: {
+				url: 'videos/099ZTMM020HowtoElimanteMaterialMasterData_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 100,
+			active: true,
+			title: '100SBWPWorkflowinSAPBusinessWorkplace_MDM',
+			video: {
+				url: 'videos/100SBWPWorkflowinSAPBusinessWorkplace_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 101,
+			active: true,
+			title: '101SCALHowtocreateholiday_PP',
+			video: {
+				url: 'videos/101SCALHowtocreateholiday_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 102,
+			active: true,
+			title: '102SCALHowtocreateholidayscalendars_PP',
+			video: {
+				url: 'videos/102SCALHowtocreateholidayscalendars_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 103,
+			active: true,
+			title: '103SCALHowtoCreatecalendars_PP',
+			video: {
+				url: 'videos/103SCALHowtoCreatecalendars_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 104,
+			active: true,
+			title: '104SCALHowtosetnonworkingdays_PP',
+			video: {
+				url: 'videos/104SCALHowtosetnonworkingdays_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 105,
+			active: true,
+			title: '105SU3Howtomanageuserdata_BASIC',
+			video: {
+				url: 'videos/105SU3Howtomanageuserdata_BASIC.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 106,
+			active: true,
+			title: '106CO11NHowtoConfirmOrder_PP',
+			video: {
+				url: 'videos/106CO11NHowtoConfirmOrder_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 107,
+			active: true,
+			title: '107CO15HowtoConfirmProductionOrder_PP',
+			video: {
+				url: 'videos/107CO15HowtoConfirmProductionOrder_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 108,
+			active: true,
+			title: '108CO13Howtocancelproductionorderconfirmations_PP',
+			video: {
+				url: 'videos/108CO13Howtocancelproductionorderconfirmations_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 109,
+			active: true,
+			title: '109CO01CreateProductionOrderZMS1type_PP',
+			video: {
+				url: 'videos/109CO01CreateProductionOrderZMS1type_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 110,
+			active: true,
+			title: '110MRPexecutionMD01_PP',
+			video: {
+				url: 'videos/110MRPexecutionMD01_PP.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 111,
+			active: true,
+			title: '111ZTMMGSM_PLM',
+			video: {
+				url: 'videos/111ZTMMGSM_PLM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 112,
+			active: true,
+			title: '112ECM_PLM',
+			video: {
+				url: 'videos/112ECM_PLM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 113,
+			active: true,
+			title: '113CS01_PLM',
+			video: {
+				url: 'videos/113CS01_PLM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 114,
+			active: true,
+			title: '114CV01N_PLM',
+			video: {
+				url: 'videos/114CV01N_PLM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 115,
+			active: true,
+			title: '115SearchMaterialVC_PLM',
+			video: {
+				url: 'videos/115SearchMaterialVC_PLM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 116,
+			active: true,
+			title: '116CreateInspectionCharacteristic_QM',
+			video: {
+				url: 'videos/116CreateInspectionCharacteristic_QM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 117,
+			active: true,
+			title: '117ChangeInspectionCharacteristic_QM',
+			video: {
+				url: 'videos/117ChangeInspectionCharacteristic_QM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 118,
+			active: true,
+			title: '118DisplayInspectionCharacteristic_QM',
+			video: {
+				url: 'videos/118DisplayInspectionCharacteristic_QM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 119,
+			active: true,
+			title: '119DisplayListofCharacterisctics_QM',
+			video: {
+				url: 'videos/119DisplayListofCharacterisctics_QM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 120,
+			active: true,
+			title: '120InspectionCharacteristicWhereUsedList_QM',
+			video: {
+				url: 'videos/120InspectionCharacteristicWhereUsedList_QM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 121,
+			active: true,
+			title: '121IW51Nota_Serviço_CS',
+			video: {
+				url: 'videos/121IW51Nota_Serviço_CS.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 122,
+			active: true,
+			title: '122IW31Ordem_Serviço_CS',
+			video: {
+				url: 'videos/122IW31Ordem_Serviço_CS.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 123,
+			active: true,
+			title: '123IQ03Rastreabilidade_CS',
+			video: {
+				url: 'videos/123IQ03Rastreabilidade_CS.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 124,
+			active: true,
+			title: '124IW41Conf_horas_CS',
+			video: {
+				url: 'videos/124IW41Conf_horas_CS.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 125,
+			active: true,
+			title: '125ZTMM082LoadoftranslationCharacteristics_MDM',
+			video: {
+				url: 'videos/125ZTMM082LoadoftranslationCharacteristics_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+
+			id: 126,
+			active: true,
+			title: '126ZTMM082LoadofTransalationofCharacteristicsUploadUsingExcel_MDM',
+			video: {
+				url: 'videos/126ZTMM082LoadofTransalationofCharacteristicsUploadUsingExcel_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 127,
+			active: true,
+			title: '127ZTMM504CharacteristicswithvaluesQuerybymultilanguage_MDM',
+			video: {
+				url: 'videos/127ZTMM504CharacteristicswithvaluesQuerybymultilanguage_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 128,
+			active: true,
+			title: '128ZTMM165MAterialandCharacteristicsTranslationReport_MDM',
+			video: {
+				url: 'videos/128ZTMM165MAterialandCharacteristicsTranslationReport_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 129,
+			active: true,
+			title: '129CL6ANClassListfocusintranslation_MDM',
+			video: {
+				url: 'videos/129CL6ANClassListfocusintranslation_MDM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 130,
+			active: true,
+			title: '130ZYCRR034_140_WM',
+			video: {
+				url: 'videos/130ZYCRR034_140_WM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 131,
+			active: true,
+			title: '131VL06P_WM',
+			video: {
+				url: 'videos/131VL06P_WM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 132,
+			active: true,
+			title: '132lx02_WM',
+			video: {
+				url: 'videos/132lx02_WM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 133,
+			active: true,
+			title: '133MM02_WM',
+			video: {
+				url: 'videos/133MM02_WM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 134,
+			active: true,
+			title: '134LL01_WM',
+			video: {
+				url: 'videos/134LL01_WM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: [''],
+			postedOn: '2020-01-16'
+		},
+		
+		{
+			id: 135,
+			active: true,
+			title: 'How To Open SAP ECC',
+            subTitle: 'This video shows how you can open SAP ECC via MyWeg',
+            topics: [
+                'https://www.myweg.net'
+            ],
+			video: {
+				url: 'videos/135HowToOpenSAPECC.mp4',
+				type: 'mp4'
+			},
+			author: 'Dionei J. Delagnolo',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-16'
 		}
 
-        
 
-        
+ 
 
         
     ]

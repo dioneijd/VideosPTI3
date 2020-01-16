@@ -4,7 +4,6 @@ let State = {
     filterData: '',
     filteredCurses: curses,
 	activeGrouper: {},
-    // activeCtgId: 0,
     activeCategory: {},
 	activeCurse: {
         id: 0,
