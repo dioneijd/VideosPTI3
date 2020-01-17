@@ -100,6 +100,10 @@ function FilterCurses(filterData) {
         if (curse.id && curse.id == textToFilter){
             return true
         }
+        console.log(curse.video.url)
+        if (curse.video.url && curse.video.url.toLowerCase().includes(textToFilter)){
+            return true
+        }
         
         return false
     })

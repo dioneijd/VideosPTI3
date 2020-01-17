@@ -1,8 +1,4 @@
-﻿ 
-    
-    
-    
-    
+﻿
     const groupers = [
         {
             id: 1,
@@ -11,17 +7,17 @@
                 {
                     id: 1, 
                     desc: 'BASICS',
-                    curseIds: [135]
+                    curseIds: [135, 100]
                 },
                 {
                     id: 2, 
                     desc: 'MASTER DATA',
-                    curseIds: []
+                    curseIds: [96, 97, 98, 99, 111, 125, 126, 127, 128, 129]
                 },
                 {
                     id: 3, 
                     desc: 'SALES',
-                    curseIds: [79, 80, 81, 82, 83, 84, 85, 86]
+                    curseIds: [79, 80, 81, 82, 83, 84, 85, 86, 87]
                 },
                 {
                     id: 4, 
@@ -36,17 +32,17 @@
                 {
                     id: 6, 
                     desc: 'PURCHASES',
-                    curseIds: [73]
+                    curseIds: [73, 88, 89, 90, 91, 92, 93, 94]
                 },
                 {
                     id: 7, 
                     desc: 'QUALITY',
-                    curseIds: []
+                    curseIds: [116, 117, 118, 119, 120]
                 },
                 {
                     id: 8, 
                     desc: 'PPC',
-                    curseIds: []
+                    curseIds: [101, 102, 103, 104, 105, 106, 107, 108, 109, 110]
                 },
                 {
                     id: 9, 
@@ -56,7 +52,7 @@
                 {
                     id: 10, 
                     desc: 'WAREHOUSE',
-                    curseIds: []
+                    curseIds: [130, 131, 132, 133, 134]
                 },
                 {
                     id: 11, 
@@ -66,7 +62,7 @@
                 {
                     id: 12, 
                     desc: 'PRODUCT ENG.',
-                    curseIds: []
+                    curseIds: [95, 112, 113, 114, 115]
                 },
                 {
                     id: 13, 
@@ -76,7 +72,7 @@
                 {
                     id: 14, 
                     desc: 'AFTER SALES',
-                    curseIds: []
+                    curseIds: [121, 122, 123, 124, 125]
                 },
                 {
                     id: 15, 
@@ -124,33 +120,48 @@
             categories: [
                 {
                     id: 1, 
-                    desc: 'JIRA',
-                    curseIds: []
+                    desc: 'CAMTASIA',
+                    curseIds: [150]
                 },
                 {
                     id: 2, 
+                    desc: 'JIRA',
+                    curseIds: [136, 137, 138, 139, 140, 141]
+                },
+                {
+                    id: 3, 
                     desc: 'MS EXCEL',
                     curseIds: []
                 },
                 {
-                    id: 3, 
+                    id: 4, 
                     desc: 'MS OUTLOOK',
                     curseIds: [76, 68, 69, 70, 71, 72]
                 },
                 {
-                    id: 4, 
+                    id: 5, 
                     desc: 'MS POWER POINT',
                     curseIds: [53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66]
                 },
                 {
-                    id: 5, 
-                    desc: 'PROJECT',
-                    curseIds: []
+                    id: 6, 
+                    desc: 'MS PROJECT',
+                    curseIds: [147, 148, 149]
                 },
                 {
-                    id: 6, 
+                    id: 7, 
+                    desc: 'PROJECT MANAGEMENT',
+                    curseIds: [142, 143, 146]
+                },
+                {
+                    id: 8, 
+                    desc: 'SALES FORCE',
+                    curseIds: [145, 151]
+                },
+                {
+                    id: 9, 
                     desc: 'WBS CHART PRO',
-                    curseIds: []
+                    curseIds: [144]
                 }
             ]
         }
@@ -1408,7 +1419,7 @@
 		{
 		id: 87,
 		active: true,
-		title: '087VF04Billingdocumentmonitor_V1_SD',
+		title: 'Billing document monitor VF04',
 		video: {
 		url: 'videos/087VF04Billingdocumentmonitor_V1_SD.mp4',
 		type: 'mp4'
@@ -1421,9 +1432,9 @@
 		{
 			id: 88,
 			active: true,
-			title: '088How tocheckpurchasingdocuments_MM',
+			title: 'How to check purchasing documents',
 			video: {
-				url: 'videos/088How tocheckpurchasingdocuments_MM.mp4',
+				url: 'videos/088Howtocheckpurchasingdocuments_MM.mp4',
 				type: 'mp4'
 			},
 			author: '',
@@ -1434,7 +1445,7 @@
 		{
 			id: 89,
 			active: true,
-			title: '089MB1B_MM',
+			title: 'MB1B',
 			video: {
 				url: 'videos/089MB1B_MM.mp4',
 				type: 'mp4'
@@ -1447,7 +1458,7 @@
 		{
 			id: 90,
 			active: true,
-			title: '090XK01_MM',
+			title: 'XK01',
 			video: {
 				url: 'videos/090XK01_MM.mp4',
 				type: 'mp4'
@@ -1460,7 +1471,7 @@
 		{
 			id: 91,
 			active: true,
-			title: '091ZTMM173_MM',
+			title: 'ZTMM173',
 			video: {
 				url: 'videos/091ZTMM173_MM.mp4',
 				type: 'mp4'
@@ -1473,7 +1484,7 @@
 		{
 			id: 92,
 			active: true,
-			title: '092MI01Howtocreatephysicalinventorydocument_MM',
+			title: 'How to create physical inventory document-MI01',
 			video: {
 				url: 'videos/092MI01Howtocreatephysicalinventorydocument_MM.mp4',
 				type: 'mp4'
@@ -1486,7 +1497,7 @@
 		{
 			id: 92,
 			active: true,
-			title: '092MI07_MI20Howopostinventorycount_MM',
+			title: 'How post inventory count MI07 - MI20',
 			video: {
 				url: 'videos/092MI07_MI20Howopostinventorycount_MM.mp4',
 				type: 'mp4'
@@ -1499,7 +1510,7 @@
 		{
 			id: 93,
 			active: true,
-			title: '093MI04Howtoenterphysicalinventorycount_MM',
+			title: 'How to enter physical inventory count - MI04',
 			video: {
 				url: 'videos/093MI04Howtoenterphysicalinventorycount_MM.mp4',
 				type: 'mp4'
@@ -1512,7 +1523,7 @@
 		{
 			id: 94,
 			active: true,
-			title: '094ME51NHowtocreateaPurchaseRequisition_MM',
+			title: 'How to create a Purchase Requisition ME51',
 			video: {
 				url: 'videos/094ME51NHowtocreateaPurchaseRequisition_MM.mp4',
 				type: 'mp4'
@@ -1525,7 +1536,7 @@
 		{
 			id: 95,
 			active: true,
-			title: '095CL30NMaterialsSearchbyClass_PLM',
+			title: 'Materials Search by Class - CL30',
 			video: {
 				url: 'videos/095CL30NMaterialsSearchbyClass_PLM.mp4',
 				type: 'mp4'
@@ -1538,7 +1549,7 @@
 		{
 			id: 96,
 			active: true,
-			title: '096ZTMM069HowtoTrackWorkflowofMaterialMasterData_MDM',
+			title: 'How to Track Work flow of Material Master Data ZTMM069',
 			video: {
 				url: 'videos/096ZTMM069HowtoTrackWorkflowofMaterialMasterData_MDM.mp4',
 				type: 'mp4'
@@ -1551,7 +1562,7 @@
 		{
 			id: 97,
 			active: true,
-			title: '097ZTMM020HowtoExpandMaterialMasterData_MDM',
+			title: 'How to Expand Material Master Data ZTMM020',
 			video: {
 				url: 'videos/097ZTMM020HowtoExpandMaterialMasterData_MDM.mp4',
 				type: 'mp4'
@@ -1564,7 +1575,7 @@
 		{
 			id: 98,
 			active: true,
-			title: '098ZTMM020HowtoChangeMaterialMasterData_MDM',
+			title: 'How to Change Material Master Data ZTMM020',
 			video: {
 				url: 'videos/098ZTMM020HowtoChangeMaterialMasterData_MDM.mp4',
 				type: 'mp4'
@@ -1577,7 +1588,7 @@
 		{
 			id: 99,
 			active: true,
-			title: '099ZTMM020HowtoElimanteMaterialMasterData_MDM',
+			title: 'How to Elimante Material Master Data ZTMM020',
 			video: {
 				url: 'videos/099ZTMM020HowtoElimanteMaterialMasterData_MDM.mp4',
 				type: 'mp4'
@@ -1590,7 +1601,7 @@
 		{
 			id: 100,
 			active: true,
-			title: '100SBWPWorkflowinSAPBusinessWorkplace_MDM',
+			title: 'Work flow in SAP Business Work place SBWP',
 			video: {
 				url: 'videos/100SBWPWorkflowinSAPBusinessWorkplace_MDM.mp4',
 				type: 'mp4'
@@ -1603,7 +1614,7 @@
 		{
 			id: 101,
 			active: true,
-			title: '101SCALHowtocreateholiday_PP',
+			title: 'How to create holiday SCAL',
 			video: {
 				url: 'videos/101SCALHowtocreateholiday_PP.mp4',
 				type: 'mp4'
@@ -1616,7 +1627,7 @@
 		{
 			id: 102,
 			active: true,
-			title: '102SCALHowtocreateholidayscalendars_PP',
+			title: 'How to create holidays calendars SCAL',
 			video: {
 				url: 'videos/102SCALHowtocreateholidayscalendars_PP.mp4',
 				type: 'mp4'
@@ -1629,7 +1640,7 @@
 		{
 			id: 103,
 			active: true,
-			title: '103SCALHowtoCreatecalendars_PP',
+			title: 'SCAL How to Create calendars',
 			video: {
 				url: 'videos/103SCALHowtoCreatecalendars_PP.mp4',
 				type: 'mp4'
@@ -1642,7 +1653,7 @@
 		{
 			id: 104,
 			active: true,
-			title: '104SCALHowtosetnonworkingdays_PP',
+			title: 'How to set non working days SCAL',
 			video: {
 				url: 'videos/104SCALHowtosetnonworkingdays_PP.mp4',
 				type: 'mp4'
@@ -1655,7 +1666,7 @@
 		{
 			id: 105,
 			active: true,
-			title: '105SU3Howtomanageuserdata_BASIC',
+			title: 'How to manage user data SU3 ',
 			video: {
 				url: 'videos/105SU3Howtomanageuserdata_BASIC.mp4',
 				type: 'mp4'
@@ -1668,7 +1679,7 @@
 		{
 			id: 106,
 			active: true,
-			title: '106CO11NHowtoConfirmOrder_PP',
+			title: 'How to Confirm Order CO11',
 			video: {
 				url: 'videos/106CO11NHowtoConfirmOrder_PP.mp4',
 				type: 'mp4'
@@ -1681,7 +1692,7 @@
 		{
 			id: 107,
 			active: true,
-			title: '107CO15HowtoConfirmProductionOrder_PP',
+			title: 'How to Confirm Production Order CO15',
 			video: {
 				url: 'videos/107CO15HowtoConfirmProductionOrder_PP.mp4',
 				type: 'mp4'
@@ -1694,7 +1705,7 @@
 		{
 			id: 108,
 			active: true,
-			title: '108CO13Howtocancelproductionorderconfirmations_PP',
+			title: 'How to cancel production order confirmations CO13',
 			video: {
 				url: 'videos/108CO13Howtocancelproductionorderconfirmations_PP.mp4',
 				type: 'mp4'
@@ -1707,7 +1718,7 @@
 		{
 			id: 109,
 			active: true,
-			title: '109CO01CreateProductionOrderZMS1type_PP',
+			title: 'Create Production Order type ZMS1 CO01',
 			video: {
 				url: 'videos/109CO01CreateProductionOrderZMS1type_PP.mp4',
 				type: 'mp4'
@@ -1720,7 +1731,7 @@
 		{
 			id: 110,
 			active: true,
-			title: '110MRPexecutionMD01_PP',
+			title: 'MRP execution MD01',
 			video: {
 				url: 'videos/110MRPexecutionMD01_PP.mp4',
 				type: 'mp4'
@@ -1733,7 +1744,7 @@
 		{
 			id: 111,
 			active: true,
-			title: '111ZTMMGSM_PLM',
+			title: ' ZTMMGSM',
 			video: {
 				url: 'videos/111ZTMMGSM_PLM.mp4',
 				type: 'mp4'
@@ -1746,7 +1757,7 @@
 		{
 			id: 112,
 			active: true,
-			title: '112ECM_PLM',
+			title: 'ECM',
 			video: {
 				url: 'videos/112ECM_PLM.mp4',
 				type: 'mp4'
@@ -1759,7 +1770,7 @@
 		{
 			id: 113,
 			active: true,
-			title: '113CS01_PLM',
+			title: 'CS01',
 			video: {
 				url: 'videos/113CS01_PLM.mp4',
 				type: 'mp4'
@@ -1772,7 +1783,7 @@
 		{
 			id: 114,
 			active: true,
-			title: '114CV01N_PLM',
+			title: 'CV01N',
 			video: {
 				url: 'videos/114CV01N_PLM.mp4',
 				type: 'mp4'
@@ -1785,7 +1796,7 @@
 		{
 			id: 115,
 			active: true,
-			title: '115SearchMaterialVC_PLM',
+			title: 'Search Material VC',
 			video: {
 				url: 'videos/115SearchMaterialVC_PLM.mp4',
 				type: 'mp4'
@@ -1798,7 +1809,7 @@
 		{
 			id: 116,
 			active: true,
-			title: '116CreateInspectionCharacteristic_QM',
+			title: 'Create Inspection Characteristic',
 			video: {
 				url: 'videos/116CreateInspectionCharacteristic_QM.mp4',
 				type: 'mp4'
@@ -1811,7 +1822,7 @@
 		{
 			id: 117,
 			active: true,
-			title: '117ChangeInspectionCharacteristic_QM',
+			title: 'Change Inspection Characteristic',
 			video: {
 				url: 'videos/117ChangeInspectionCharacteristic_QM.mp4',
 				type: 'mp4'
@@ -1824,7 +1835,7 @@
 		{
 			id: 118,
 			active: true,
-			title: '118DisplayInspectionCharacteristic_QM',
+			title: 'Display Inspection Characteristic',
 			video: {
 				url: 'videos/118DisplayInspectionCharacteristic_QM.mp4',
 				type: 'mp4'
@@ -1837,7 +1848,7 @@
 		{
 			id: 119,
 			active: true,
-			title: '119DisplayListofCharacterisctics_QM',
+			title: 'Display List of Characterisctics',
 			video: {
 				url: 'videos/119DisplayListofCharacterisctics_QM.mp4',
 				type: 'mp4'
@@ -1850,7 +1861,7 @@
 		{
 			id: 120,
 			active: true,
-			title: '120InspectionCharacteristicWhereUsedList_QM',
+			title: 'Inspection Characteristic Where Used List',
 			video: {
 				url: 'videos/120InspectionCharacteristicWhereUsedList_QM.mp4',
 				type: 'mp4'
@@ -1863,7 +1874,7 @@
 		{
 			id: 121,
 			active: true,
-			title: '121IW51Nota_Serviço_CS',
+			title: 'Nota Serviço IW51',
 			video: {
 				url: 'videos/121IW51Nota_Serviço_CS.mp4',
 				type: 'mp4'
@@ -1876,7 +1887,7 @@
 		{
 			id: 122,
 			active: true,
-			title: '122IW31Ordem_Serviço_CS',
+			title: 'Ordem Serviço IW31',
 			video: {
 				url: 'videos/122IW31Ordem_Serviço_CS.mp4',
 				type: 'mp4'
@@ -1889,7 +1900,7 @@
 		{
 			id: 123,
 			active: true,
-			title: '123IQ03Rastreabilidade_CS',
+			title: 'IQ03 Rastreabilidade',
 			video: {
 				url: 'videos/123IQ03Rastreabilidade_CS.mp4',
 				type: 'mp4'
@@ -1902,7 +1913,7 @@
 		{
 			id: 124,
 			active: true,
-			title: '124IW41Conf_horas_CS',
+			title: 'Conf horas IW41',
 			video: {
 				url: 'videos/124IW41Conf_horas_CS.mp4',
 				type: 'mp4'
@@ -1915,7 +1926,7 @@
 		{
 			id: 125,
 			active: true,
-			title: '125ZTMM082LoadoftranslationCharacteristics_MDM',
+			title: 'Load of translation Characteristics ZTMM082',
 			video: {
 				url: 'videos/125ZTMM082LoadoftranslationCharacteristics_MDM.mp4',
 				type: 'mp4'
@@ -1929,7 +1940,7 @@
 
 			id: 126,
 			active: true,
-			title: '126ZTMM082LoadofTransalationofCharacteristicsUploadUsingExcel_MDM',
+			title: 'Load of Transalation of Characteristics Upload Using Excel ZTMM082',
 			video: {
 				url: 'videos/126ZTMM082LoadofTransalationofCharacteristicsUploadUsingExcel_MDM.mp4',
 				type: 'mp4'
@@ -1942,7 +1953,7 @@
 		{
 			id: 127,
 			active: true,
-			title: '127ZTMM504CharacteristicswithvaluesQuerybymultilanguage_MDM',
+			title: 'Characteristics with values Query by multi language ZTMM504',
 			video: {
 				url: 'videos/127ZTMM504CharacteristicswithvaluesQuerybymultilanguage_MDM.mp4',
 				type: 'mp4'
@@ -1955,7 +1966,7 @@
 		{
 			id: 128,
 			active: true,
-			title: '128ZTMM165MAterialandCharacteristicsTranslationReport_MDM',
+			title: 'MAterial and Characteristics Translation Report ZTMM165',
 			video: {
 				url: 'videos/128ZTMM165MAterialandCharacteristicsTranslationReport_MDM.mp4',
 				type: 'mp4'
@@ -1968,7 +1979,7 @@
 		{
 			id: 129,
 			active: true,
-			title: '129CL6ANClassListfocusintranslation_MDM',
+			title: 'Class List focus in translation CL6AN',
 			video: {
 				url: 'videos/129CL6ANClassListfocusintranslation_MDM.mp4',
 				type: 'mp4'
@@ -1981,7 +1992,7 @@
 		{
 			id: 130,
 			active: true,
-			title: '130ZYCRR034_140_WM',
+			title: 'ZYCRR034',
 			video: {
 				url: 'videos/130ZYCRR034_140_WM.mp4',
 				type: 'mp4'
@@ -1994,7 +2005,7 @@
 		{
 			id: 131,
 			active: true,
-			title: '131VL06P_WM',
+			title: 'VL06P',
 			video: {
 				url: 'videos/131VL06P_WM.mp4',
 				type: 'mp4'
@@ -2007,7 +2018,7 @@
 		{
 			id: 132,
 			active: true,
-			title: '132lx02_WM',
+			title: 'Check invetory frim modshop to pick',
 			video: {
 				url: 'videos/132lx02_WM.mp4',
 				type: 'mp4'
@@ -2020,7 +2031,7 @@
 		{
 			id: 133,
 			active: true,
-			title: '133MM02_WM',
+			title: 'Change default storage bin',
 			video: {
 				url: 'videos/133MM02_WM.mp4',
 				type: 'mp4'
@@ -2033,7 +2044,7 @@
 		{
 			id: 134,
 			active: true,
-			title: '134LL01_WM',
+			title: 'LL01',
 			video: {
 				url: 'videos/134LL01_WM.mp4',
 				type: 'mp4'
@@ -2058,9 +2069,236 @@
 			author: 'Dionei J. Delagnolo',
 			lang: ['EN', 'PT', 'ES'],
 			postedOn: '2020-01-16'
-		}
-
-
+		},
+		
+		{
+			id: 136,
+			active: true,
+			title: 'Add Column Status On Board',
+            subTitle: '',
+			video: {
+				url: 'videos/136AddColumnStatusOnBoard.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 137,
+			active: true,
+			title: 'Quick Filter',
+            subTitle: '',
+			video: {
+				url: 'videos/137QuickFilter.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 138,
+			active: true,
+			title: 'Exportar Dados Para Atualiza PMT',
+            subTitle: '',
+			video: {
+				url: 'videos/138ExportarDadosJiraAtualizaPMT.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 139,
+			active: true,
+			title: 'Adicionar Campo Em Formulário',
+            subTitle: '',
+			video: {
+				url: 'videos/139AdicionarCampoEmFormulárioJIRA.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 140,
+			active: true,
+			title: 'Utilizando API',
+            subTitle: '',
+			video: {
+				url: 'videos/140UtilizandoJiraAPI.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 141,
+			active: true,
+			title: 'Criar Sprints',
+            subTitle: '',
+			video: {
+				url: 'videos/141CriarSprintsJira.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 142,
+			active: true,
+			title: 'Como Realizar Planejamento De Custos No PMT',
+            subTitle: '',
+			video: {
+				url: 'videos/142ComoRealizarPlanejamentoDeCustosNoPMT.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 143,
+			active: true,
+			title: 'Gerador De Notas Para Perdiem',
+            subTitle: '',
+			video: {
+				url: 'videos/143GeradorDeNotasParaPerdiem.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 144,
+			active: true,
+			title: 'Instalar uplemento WBS Schedule Pro',
+            subTitle: '',
+			video: {
+				url: 'videos/144InstalarSuplementoWBSSchedulePro.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 145,
+			active: true,
+			title: 'Criar Painel Sales Force',
+            subTitle: '',
+			video: {
+				url: 'videos/145CriarPainelSalesForce.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 146,
+			active: true,
+			title: 'Encerrar Demanda PPM',
+            subTitle: '',
+			video: {
+				url: 'videos/146EncerrarDemandaPPM.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 147,
+			active: true,
+			title: 'Como Criar Uma Linha De Base',
+            subTitle: '',
+			video: {
+				url: 'videos/147ComoCriarUmaLinhaDeBaseNoMSProject.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 148,
+			active: true,
+			title: 'Como Alterar Data De Status',
+            subTitle: '',
+			video: {
+				url: 'videos/148ComoAlterarDataDeStatusNoMSProject.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 149,
+			active: true,
+			title: 'Como Fazer Uma Visão',
+            subTitle: '',
+			video: {
+				url: 'videos/149ComoFazerUmaVisãoNoMSProject.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		},
+		
+		{
+			id: 150,
+			active: true,
+			title: 'Como Criar Videos',
+            subTitle: '',
+			video: {
+				url: 'videos/150CamtasiaComoCriarVideos.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['EN', 'PT', 'ES'],
+			postedOn: '2020-01-17'
+		}, 
+		
+		{
+			id: 151,
+			active: true,
+			title: 'Como Encerrar Um Chamado',
+            subTitle: '',
+			video: {
+				url: 'videos/151ComoEncerrarUmChamado.mp4',
+				type: 'mp4'
+			},
+			author: '',
+			lang: ['PT'],
+			postedOn: '2020-01-17'
+		},
+ 
+ 
+ 
+ 
+ 
  
 
         
