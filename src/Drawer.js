@@ -176,8 +176,8 @@ function DrawCurseContent(){
 
 function ShowAlert(msgObj){
 	const {message, time, msgType } = msgObj
-
 	const alertMessage = document.getElementById('alertMessage')
+	const alertId = `alert_${Math.random()}`
 
 	let alertClass = 'alert-primary'
 	if (msgType == 'E') {
@@ -188,16 +188,19 @@ function ShowAlert(msgObj){
 
 	
 	alertMessage.innerHTML += `
-		<div class="alert ${alertClass} alert-dismissible fade show" role="alert">
+		<div id="${alertId}" class="alert ${alertClass} alert-dismissible fade show" role="alert">
 			<strong>${message}</strong>
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true">&times;</span>
 			</button>
 		</div>
 	`
+
 	
 	setTimeout(function() {
-		$('.alert').alert('close')
-	}, time ? time : 5000 )
+		const alertEl = document.getElementById(alertId)
+		alertEl.parentNode.removeChild(alertEl)
+		
+	}, time ? time : 1000 )
 }
 
