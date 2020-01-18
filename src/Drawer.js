@@ -200,7 +200,7 @@ function ShowAlert(msgObj){
 	setTimeout(function() {
 		const alertEl = document.getElementById(alertId)
 		alertEl.parentNode.removeChild(alertEl)
-		
-	}, time ? time : 1000 )
+
+	}, time ? time : 5000 )
 }
 
