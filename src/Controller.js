@@ -83,24 +83,24 @@ function Initial(){
 
 function FilterCurses(filterData) {
     const curses = State.curses.filter(curse => {
-        let textToFilter = replaceSpecialChar(filterData.toLowerCase())
+        let textToFilter = ReplaceSpecialChar(filterData.toLowerCase())
 
-        if (replaceSpecialChar(curse.title.toLowerCase()).includes(textToFilter)){
+        if (ReplaceSpecialChar(curse.title.toLowerCase()).includes(textToFilter)){
             return true
         }
 
-        if (curse.subTitle && replaceSpecialChar(curse.subTitle.toLowerCase()).includes(textToFilter)){
+        if (curse.subTitle && ReplaceSpecialChar(curse.subTitle.toLowerCase()).includes(textToFilter)){
             return true
         }
 
-        if (curse.author && replaceSpecialChar(curse.author.toLowerCase()).includes(textToFilter)){
+        if (curse.author && ReplaceSpecialChar(curse.author.toLowerCase()).includes(textToFilter)){
             return true
         }
 
         if (curse.id && curse.id == textToFilter){
             return true
         }
-        console.log(curse.video.url)
+		
         if (curse.video.url && curse.video.url.toLowerCase().includes(textToFilter)){
             return true
         }
@@ -152,11 +152,11 @@ function CopyCurseLink(){
         CopyTextToClipboard(curseUrl)
         ShowAlert({message: 'Link was copied'})
     } else {
-        ShowAlert({message: 'ERROR: it was not possible to create the link'})
+        ShowAlert({message: 'ERROR: it was not possible to create the link', msgType:'E'})
     }
 }
 
-function replaceSpecialChar(text){
+function ReplaceSpecialChar(text){
     let newText = text
 
     newText = newText.replace('ç', 'c')
@@ -176,5 +176,19 @@ function replaceSpecialChar(text){
     newText = newText.replace('ü', 'u')
 
     return newText
+
+}
+
+function ShowCurseDetails() {
+    const curse = State.activeCurse
+    
+    let text = `    
+        ID: ${curse.id}
+        </br>
+        Title: ${curse.title}
+        </br>
+    `
+
+    ShowAlert({message: JSON.stringify(curse, undefined, 4)})
 
 }
