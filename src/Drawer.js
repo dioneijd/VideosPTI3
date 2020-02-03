@@ -167,9 +167,15 @@ function DrawCurseContent(){
 			</object>
 		`		
 	}
+	if (curse.video.type == 'pdf')
+	{
+		curseVideo.innerHTML = `
 
-
-
+			<object data="${curse.video.url}" type="application/pdf">
+			</object>
+			
+		`
+	}
 }
 
 
