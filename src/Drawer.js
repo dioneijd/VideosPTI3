@@ -98,6 +98,46 @@ function DrawCurseContent(){
 	const curseAuthor = document.getElementById('curseAuthor')
 	const curseDate = document.getElementById('curseDate')
 	const curseTopics = document.getElementById('curseTopics')
+	const mediasAllowed = {
+		mp4: url => `
+			<video class='video' controls autoplay>
+				<source src="${url}" type="video/mp4">
+			</video>
+		`,
+
+		pdf: url => `
+			<object data="${url}" type="application/pdf">
+			</object>			
+		`,
+
+		youtube: url => `
+			<iframe 
+				src="${url}"
+				class="embed-responsive-item"
+				frameborder="0" 
+				allow="autoplay; 
+				encrypted-media" 
+				allowfullscreen>
+			</iframe>
+		`,
+
+		swf: url => `
+			<object class='video' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' id='csSWF'> 
+				<param name='movie' value='${url}' /> <param name='quality' value='best' /> <param name='bgcolor' value='#e6e6e6' />  <param name='allowfullscreen' value='true' /> <param name='scale' value='showall' /> <param name='allowscriptaccess' value='always' /> <param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
+				<!--[if !IE]>--> 
+				<object class='video' type='application/x-shockwave-flash' data='${url}' >
+					<param name='quality' value='best' /> <param name='bgcolor' value='#e6e6e6' /> <param name='allowfullscreen' value='true' /> <param name='scale' value='showall' /> <param name='allowscriptaccess' value='always' /> <param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
+				<!--<![endif]--> 
+					<div id='noUpdate'> 
+						<p>If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Adobe Flash Player by <a href='http://www.adobe.com/go/getflashplayer'>downloading here</a>. </p>
+					</div> 
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		`		
+	}
+
 
 	
 
@@ -116,66 +156,12 @@ function DrawCurseContent(){
 		})
 	}
 
+	const mediaDrawer = mediasAllowed[curse.video.type]
 
-	curseVideo.innerHTML = ''
+	if (mediaDrawer) {
+		curseVideo.innerHTML = mediaDrawer(curse.video.url)
+	}
 
-	if (curse.video.type == 'mp4'){	
-		curseVideo.innerHTML = `
-			<video class='video' controls autoplay>
-			<source src="${curse.video.url}" type="video/mp4">
-			</video>
-		`
-	}
-	if (curse.video.type == 'youtube' ){	
-		curseVideo.innerHTML = `
-		<iframe 
-			src="${curse.video.url}"
-			class="embed-responsive-item"
-			frameborder="0" 
-			allow="autoplay; 
-			encrypted-media" 
-			allowfullscreen>
-		</iframe>
-		`
-	}
-	if (curse.video.type == 'swf')
-	{
-		curseVideo.innerHTML = `
-			<object class='video' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' id='csSWF'> 
-				<param name='movie' value='${curse.video.url}' /> 
-				<param name='quality' value='best' /> 
-				<param name='bgcolor' value='#e6e6e6' /> 
-				<param name='allowfullscreen' value='true' /> 
-				<param name='scale' value='showall' /> 
-				<param name='allowscriptaccess' value='always' /> 
-				<param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
-				<!--[if !IE]>--> 
-				<object class='video' type='application/x-shockwave-flash' data='${curse.video.url}' >
-					<param name='quality' value='best' /> 
-					<param name='bgcolor' value='#e6e6e6' /> 
-					<param name='allowfullscreen' value='true' /> 
-					<param name='scale' value='showall' /> 
-					<param name='allowscriptaccess' value='always' /> 
-					<param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
-				<!--<![endif]--> 
-					<div id='noUpdate'> 
-						<p>If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Adobe Flash Player by <a href='http://www.adobe.com/go/getflashplayer'>downloading here</a>. </p>
-					</div> 
-				<!--[if !IE]>-->
-				</object>
-				<!--<![endif]-->
-			</object>
-		`		
-	}
-	if (curse.video.type == 'pdf')
-	{
-		curseVideo.innerHTML = `
-
-			<object data="${curse.video.url}" type="application/pdf">
-			</object>
-			
-		`
-	}
 }
 
 
