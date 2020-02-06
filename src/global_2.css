@@ -216,9 +216,20 @@ main #curseTopics {
     padding-left: 30px;
 }
 
-main #curseVideo {
+main #curseBox .card-body .videoObject {
     max-height: 460px;
 }
+
+main #curseBox .card-body .pdfObject {
+    max-height: 600px;
+    height: 100vh;
+    width: 100%;
+}
+
+main #curseBox .card-body .swfObject {
+    max-height: 460px;
+}
+
 
 main #curseBox .card-footer {
     display: flex;

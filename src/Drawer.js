@@ -100,41 +100,43 @@ function DrawCurseContent(){
 	const curseTopics = document.getElementById('curseTopics')
 	const mediasAllowed = {
 		mp4: url => `
-			<video class='video' controls autoplay>
+			<video controls autoplay class="videoObject embed-responsive embed-responsive-16by9">
 				<source src="${url}" type="video/mp4">
 			</video>
 		`,
 
 		pdf: url => `
-			<object data="${url}" type="application/pdf">
-			</object>			
+			<object class="pdfObject" data="${url}" type="application/pdf">
+			</object>
 		`,
 
 		youtube: url => `
 			<iframe 
 				src="${url}"
 				class="embed-responsive-item"
-				frameborder="0" 
-				allow="autoplay; 
-				encrypted-media" 
+				frameborder="0"
+				allow="autoplay;
+				encrypted-media"
 				allowfullscreen>
 			</iframe>
 		`,
 
 		swf: url => `
-			<object class='video' classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' id='csSWF'> 
-				<param name='movie' value='${url}' /> <param name='quality' value='best' /> <param name='bgcolor' value='#e6e6e6' />  <param name='allowfullscreen' value='true' /> <param name='scale' value='showall' /> <param name='allowscriptaccess' value='always' /> <param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
-				<!--[if !IE]>--> 
-				<object class='video' type='application/x-shockwave-flash' data='${url}' >
-					<param name='quality' value='best' /> <param name='bgcolor' value='#e6e6e6' /> <param name='allowfullscreen' value='true' /> <param name='scale' value='showall' /> <param name='allowscriptaccess' value='always' /> <param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
-				<!--<![endif]--> 
-					<div id='noUpdate'> 
-						<p>If you are using a browser with JavaScript disabled please enable it now. Otherwise, please update your version of the free Adobe Flash Player by <a href='http://www.adobe.com/go/getflashplayer'>downloading here</a>. </p>
-					</div> 
-				<!--[if !IE]>-->
+			<div class="swfObject embed-responsive embed-responsive-16by9">
+				<object> 
+					<param name='movie' value='${url}' /> <param name='quality' value='best' /> <param name='bgcolor' value='#FFFFFF' />  <param name='allowfullscreen' value='true' /> <param name='scale' value='showall' /> <param name='allowscriptaccess' value='always' /> <param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
+					<!--[if !IE]>--> 
+					<object type='application/x-shockwave-flash' data='${url}' >
+						<param name='quality' value='best' /> <param name='bgcolor' value='#FFFFFF' /> <param name='allowfullscreen' value='true' /> <param name='scale' value='showall' /> <param name='allowscriptaccess' value='always' /> <param name='flashvars' value='autostart=true&showstartscreen=false&showendscreen=false&color=0x1A1A1A,0x1A1A1A' />
+					<!--<![endif]--> 
+						<div id='noUpdate'> 
+							<p>Please update your version of the free Adobe Flash Player by <a href='http://www.adobe.com/go/getflashplayer'>downloading here</a>. </p>
+						</div> 
+					<!--[if !IE]>-->
+					</object>
+					<!--<![endif]-->
 				</object>
-				<!--<![endif]-->
-			</object>
+			</div>
 		`		
 	}
 
