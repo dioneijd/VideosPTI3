@@ -34,9 +34,30 @@ function DrawAccordion(){
 		ctg.curseIds.forEach((curseId) => {
 			const curse = State.filteredCurses.find(curse => curse.id == curseId)
 
-			if (curse) {
-				curseCounter += 1				
-				curseUl.innerHTML += `<li class="nav-item list-group-item" onClick="setActiveCurse(${curse.id})">${curse.title}</li>`
+			if (curse) {				
+				curseCounter += 1
+
+				let svgIcon = ''
+				switch(curse.video.type) {
+					case 'mp4':
+					case 'swf':
+					case 'youtube':
+						svgIcon = './assets/videoIcon.svg'
+						break;
+					case 'pdf':
+						svgIcon = './assets/pdfIcon.svg'
+						break;
+					case 'html':
+						svgIcon = './assets/flowIcon.svg'
+						break;
+				}
+				
+				curseUl.innerHTML += `
+					<li class="nav-item list-group-item" onClick="setActiveCurse(${curse.id})">
+						<img src="${svgIcon}"></img>
+						${curse.title}
+					</li>
+				`
 			}
 		})
 

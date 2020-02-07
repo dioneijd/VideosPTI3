@@ -175,6 +175,10 @@ main #accordion .nav-item:hover {
     color: white;
     border-radius: 2px;
 }
+main #accordion .nav-item img {
+    height: 18px;
+    margin-right: 5px;
+}
 
 
 
