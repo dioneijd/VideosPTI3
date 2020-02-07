@@ -137,7 +137,18 @@ function DrawCurseContent(){
 					<!--<![endif]-->
 				</object>
 			</div>
-		`		
+		`,
+
+		html: url => `						
+			<iframe 
+				src="${url}"
+				class="htmlObject embed-responsive-item"
+				frameborder="0"
+				encrypted-media"
+				allowfullscreen>
+			</iframe>		
+		`,
+
 	}
 
 
