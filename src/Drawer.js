@@ -100,7 +100,7 @@ function DrawCurseContent(){
 	const curseTopics = document.getElementById('curseTopics')
 	const mediasAllowed = {
 		mp4: url => `
-			<video controls autoplay class="videoObject embed-responsive embed-responsive-16by9">
+			<video controls autoplay preload="auto" class="videoObject embed-responsive embed-responsive-16by9">
 				<source src="${url}" type="video/mp4">
 			</video>
 		`,

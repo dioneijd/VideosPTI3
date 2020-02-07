@@ -7,7 +7,7 @@ const groupers = [
 			{
 				id: 1, 
 				desc: 'BASICS',
-				curseIds: [100, 105, 135, 153, 156]
+				curseIds: [100, 105, 135, 153, 156, 157]
 			},
 			{
 				id: 2, 
@@ -2396,6 +2396,19 @@ const curses = [
 		video: {
 			url: 'videos/156Defineuserdefaults.mp4',
 			type: 'mp4'
+		},
+		author: '',
+		lang: ['PT'],
+		postedOn: ''
+	},
+	{
+		id: 157,
+		active: true,
+		title: 'PDF',
+		subTitle: '',
+		video: {
+			url: 'videos/B1.pdf',
+			type: 'pdf'
 		},
 		author: '',
 		lang: ['PT'],
