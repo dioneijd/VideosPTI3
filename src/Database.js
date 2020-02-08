@@ -22,7 +22,7 @@ const groupers = [
 			{
 				id: 4, 
 				desc: 'LOGISTICS',
-				curseIds: [86, 87]
+				curseIds: [86, 87, 158, 159]
 			},
 			{
 				id: 5, 
@@ -2414,6 +2414,36 @@ const curses = [
 		lang: ['PT'],
 		postedOn: ''
 	},
+	{
+		id: 158,
+		active: true,
+		title: 'PDF',
+		subTitle: '',
+		video: {
+			url: 'videos/DocWMJack.pdf',
+			type: 'pdf'
+		},
+		author: '',
+		lang: ['PT'],
+		postedOn: ''
+	},
+	{
+		id: 159,
+		active: true,
+		title: 'HTML',
+		subTitle: '',
+		video: {
+			url: 'videos/FluxosFull.html',
+			type: 'html'
+		},
+		author: '',
+		lang: ['PT'],
+		postedOn: ''
+	},
+
+
+
+	
 
 	
 ]
