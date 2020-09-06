@@ -7,7 +7,7 @@ const groupers = [
 			{
 				id: 1, 
 				desc: 'BASICS',
-				curseIds: [100, 105, 135, 153, 156]
+				curseIds: [416, 100, 105, 135, 153, 156]
 			},
 			{
 				id: 2, 
@@ -637,8 +637,8 @@ const curses = [
 		title: 'Create an Itemcode via SAP ECC',
 		subTitle: '',
 		video: {
-			url: 'videos/027TransferItemfromECCtoB1.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/qwaVkZzMM7g?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN']
@@ -651,8 +651,8 @@ const curses = [
 		title: 'Change SAP B1 Password',
 		subTitle: '',
 		video: {
-			url: 'videos/028How_to_Change_Password.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/N0vFfFOEE6U?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -664,8 +664,8 @@ const curses = [
 		title: 'List Items w/o Local Product Family',
 		subTitle: '',
 		video: {
-			url: 'videos/029How_To_List_All_Items_Without_Local_Product_Family.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/iharEUZX5xg?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -677,8 +677,8 @@ const curses = [
 		title: 'Approve an Approval Request',
 		subTitle: '',
 		video: {
-			url: 'videos/030How_to_Approve_an_Approval_Request.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/clP6i1wXc48?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN', 'ES', 'PT']
@@ -690,8 +690,8 @@ const curses = [
 		title: 'Refuse an Approval Request',
 		subTitle: '',
 		video: {
-			url: 'videos/031How_ to_Refuse_an_Approval_Request.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/oHBYAkB4ays?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN', 'ES', 'PT']
@@ -703,8 +703,8 @@ const curses = [
 		title: 'Search an Item by BP Catalog Number',
 		subTitle: '',
 		video: {
-			url: 'videos/032How_to_seacher_an_item_code_with_BP_catalog_number.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/TPLVkyU1bjE?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -716,8 +716,8 @@ const curses = [
 		title: 'Picklist Proposal Manager',
 		subTitle: '',
 		video: {
-			url: 'videos/033Picklist_Using_Picklist_Proposal_Manager.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/4IBbgJ5qWiQ?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -733,8 +733,8 @@ const curses = [
 			'This is the standard process to perform this action'
 		],
 		video: {
-			url: 'videos/034Receive_PO_manually_using_Scanners.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/scokGnCUDP4?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -746,8 +746,8 @@ const curses = [
 		title: 'Goods Return Based on Delivery Note',
 		subTitle: 'How execute a return when we have only delivery note created',
 		video: {
-			url: 'videos/035Return_based_on_Delivery_Note.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/zqNr3oFACXc?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -759,8 +759,8 @@ const curses = [
 		title: 'Container Receipt',
 		subTitle: 'How receive goods in warehouse from a container',
 		video: {
-			url: 'videos/036Container_Receipt.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/87smRnwJJjo?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -776,8 +776,8 @@ const curses = [
 			'This procedure is used as exception, once is manual and should be performed one by one'
 		],
 		video: {
-			url: 'videos/037Picklist_Created_Inside_SO.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/-nSEe_mPFlQ?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -789,8 +789,8 @@ const curses = [
 		title: 'Create a Credit Note',
 		subTitle: '',
 		video: {
-			url: 'videos/038Create_a_Credit_Note.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/9ii9AyF-fPU?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -802,8 +802,8 @@ const curses = [
 		title: 'Fixed Assets Master Data',
 		subTitle: '',
 		video: {
-			url: 'videos/039FixedAssetsMasterData.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/krb22cG6GWQ?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -815,8 +815,8 @@ const curses = [
 		title: 'Create a Journal Voucher',
 		subTitle: '',
 		video: {
-			url: 'videos/040CreateJournalVoucher.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/2k4JO_pA8I8?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -828,8 +828,8 @@ const curses = [
 		title: 'How to Make Payment On Account',
 		subTitle: '',
 		video: {
-			url: 'videos/041Payment_On_Account.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/wE-epwfyqe4?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -841,8 +841,8 @@ const curses = [
 		title: 'Create a New Payment Terms',
 		subTitle: '',
 		video: {
-			url: 'videos/042PaymentTermsCreation.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/IBri4spXPtA?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -854,8 +854,8 @@ const curses = [
 		title: 'Search and Create a BP (ECC/B1)',
 		subTitle: '',
 		video: {
-			url: 'videos/043SearchAndCreateBpOnSAPB1.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/HzMW1r2sx50?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -867,8 +867,8 @@ const curses = [
 		title: 'How to Split Pallets',
 		subTitle: '',
 		video: {
-			url: 'videos/044HowToSplitPallets.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/XQWhRljQEso?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Gabrielle Moretti Santandrea',
 		lang: ['EN']
@@ -880,8 +880,8 @@ const curses = [
 		title: 'How To Add Columns In Document',
 		subTitle: '',
 		video: {
-			url: 'videos/045HowToAddColumnsInDocument.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/s_YRAf64pZM?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -893,8 +893,8 @@ const curses = [
 		title: 'How To Export Data To Excel',
 		subTitle: '',
 		video: {
-			url: 'videos/046HowToExportToExcel.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/U41ZtVB6AgE?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -906,8 +906,8 @@ const curses = [
 		title: 'How To Create a System Improvement Request',
 		subTitle: '',
 		video: {
-			url: 'videos/047HowToCreateImprovementRequest.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/yYNYUXImGo0?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -923,8 +923,8 @@ const curses = [
 			'how to START the add-on'
 		],
 		video: {
-			url: 'videos/048HowToRe-StartBoyumAdd-on.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/CqjjLyk2j8E?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT'],
@@ -942,8 +942,8 @@ const curses = [
 			'how to START the add-on'
 		],
 		video: {
-			url: 'videos/049HowToRe-StartProdumexAdd-on.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/r_w2zxqJT-w?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT'],
@@ -2530,6 +2530,30 @@ const curses = [
 		postedOn: '2020-01-16'
 	},
 
+
+	{
+		id: 416,
+		active: true,
+		title: 'Getting started in SAP ECC',
+		subTitle: 'At the end of this session, you will be able to:',
+		topics: [
+			'Log on to SAP via MyWEG',
+			'Surfing the SAP Menus',
+			'How to save a transaction as favority',
+			'Basic keyboard commands ',
+			'How to use the Match Code',
+			'How to Open the SAP Help for the fields',
+			'Set personal settings',
+			'How use a SAP report and export to Excel',
+		],
+		video: {
+			url: 'https://www.youtube.com/embed/pD1fHzzISA4?autoplay=1',
+			type: 'youtube'
+		},
+		author: 'Yuri Odebrecht',
+		lang: [''],
+		postedOn: '2020-09-01'
+	},
 
 
 	{
