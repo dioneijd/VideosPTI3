@@ -133,7 +133,7 @@ function DrawCurseContent(){
 
 		youtube: url => `
 			<iframe 
-				src="${url}?autoplay=1&rel=0&showinfo=0&modestbranding=1&controls=2"
+				src="https://www.youtube.com/embed/${url}?autoplay=1&rel=0&showinfo=0&modestbranding=1&controls=2"
 				class="embed-responsive-item"
 				frameborder="0"
 				allow="autoplay;

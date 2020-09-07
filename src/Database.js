@@ -637,7 +637,7 @@ const curses = [
 		title: 'Create an Itemcode via SAP ECC',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/qwaVkZzMM7g?autoplay=1',
+			url: 'qwaVkZzMM7g',
 			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
@@ -651,7 +651,7 @@ const curses = [
 		title: 'Change SAP B1 Password',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/N0vFfFOEE6U?autoplay=1',
+			url: 'N0vFfFOEE6U',
 			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
@@ -664,7 +664,7 @@ const curses = [
 		title: 'List Items w/o Local Product Family',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/iharEUZX5xg?autoplay=1',
+			url: 'iharEUZX5xg',
 			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
@@ -677,7 +677,7 @@ const curses = [
 		title: 'Approve an Approval Request',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/clP6i1wXc48?autoplay=1',
+			url: 'clP6i1wXc48',
 			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
@@ -690,7 +690,7 @@ const curses = [
 		title: 'Refuse an Approval Request',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/oHBYAkB4ays?autoplay=1',
+			url: 'oHBYAkB4ays',
 			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
@@ -703,7 +703,7 @@ const curses = [
 		title: 'Search an Item by BP Catalog Number',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/TPLVkyU1bjE?autoplay=1',
+			url: 'TPLVkyU1bjE',
 			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
@@ -716,7 +716,7 @@ const curses = [
 		title: 'Picklist Proposal Manager',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/4IBbgJ5qWiQ?autoplay=1',
+			url: '4IBbgJ5qWiQ',
 			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
@@ -733,7 +733,7 @@ const curses = [
 			'This is the standard process to perform this action'
 		],
 		video: {
-			url: 'https://www.youtube.com/embed/scokGnCUDP4?autoplay=1',
+			url: 'scokGnCUDP4',
 			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
@@ -746,7 +746,7 @@ const curses = [
 		title: 'Goods Return Based on Delivery Note',
 		subTitle: 'How execute a return when we have only delivery note created',
 		video: {
-			url: 'https://www.youtube.com/embed/zqNr3oFACXc?autoplay=1',
+			url: 'zqNr3oFACXc',
 			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
@@ -759,7 +759,7 @@ const curses = [
 		title: 'Container Receipt',
 		subTitle: 'How receive goods in warehouse from a container',
 		video: {
-			url: 'https://www.youtube.com/embed/87smRnwJJjo?autoplay=1',
+			url: '87smRnwJJjo',
 			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
@@ -776,7 +776,7 @@ const curses = [
 			'This procedure is used as exception, once is manual and should be performed one by one'
 		],
 		video: {
-			url: 'https://www.youtube.com/embed/-nSEe_mPFlQ?autoplay=1',
+			url: '-nSEe_mPFlQ',
 			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
@@ -789,7 +789,7 @@ const curses = [
 		title: 'Create a Credit Note',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/9ii9AyF-fPU?autoplay=1',
+			url: '9ii9AyF-fPU',
 			type: 'youtube'
 		},
 		author: '',
@@ -802,7 +802,7 @@ const curses = [
 		title: 'Fixed Assets Master Data',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/krb22cG6GWQ?autoplay=1',
+			url: 'krb22cG6GWQ',
 			type: 'youtube'
 		},
 		author: '',
@@ -815,7 +815,7 @@ const curses = [
 		title: 'Create a Journal Voucher',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/2k4JO_pA8I8?autoplay=1',
+			url: '2k4JO_pA8I8',
 			type: 'youtube'
 		},
 		author: '',
@@ -828,7 +828,7 @@ const curses = [
 		title: 'How to Make Payment On Account',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/wE-epwfyqe4?autoplay=1',
+			url: 'wE-epwfyqe4',
 			type: 'youtube'
 		},
 		author: '',
@@ -841,7 +841,7 @@ const curses = [
 		title: 'Create a New Payment Terms',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/IBri4spXPtA?autoplay=1',
+			url: 'IBri4spXPtA',
 			type: 'youtube'
 		},
 		author: '',
@@ -854,7 +854,7 @@ const curses = [
 		title: 'Search and Create a BP (ECC/B1)',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/HzMW1r2sx50?autoplay=1',
+			url: 'HzMW1r2sx50',
 			type: 'youtube'
 		},
 		author: '',
@@ -867,7 +867,7 @@ const curses = [
 		title: 'How to Split Pallets',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/XQWhRljQEso?autoplay=1',
+			url: 'XQWhRljQEso',
 			type: 'youtube'
 		},
 		author: 'Gabrielle Moretti Santandrea',
@@ -880,7 +880,7 @@ const curses = [
 		title: 'How To Add Columns In Document',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/s_YRAf64pZM?autoplay=1',
+			url: 's_YRAf64pZM',
 			type: 'youtube'
 		},
 		author: '',
@@ -893,7 +893,7 @@ const curses = [
 		title: 'How To Export Data To Excel',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/U41ZtVB6AgE?autoplay=1',
+			url: 'U41ZtVB6AgE',
 			type: 'youtube'
 		},
 		author: '',
@@ -906,7 +906,7 @@ const curses = [
 		title: 'How To Create a System Improvement Request',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/yYNYUXImGo0?autoplay=1',
+			url: 'yYNYUXImGo0',
 			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
@@ -923,7 +923,7 @@ const curses = [
 			'how to START the add-on'
 		],
 		video: {
-			url: 'https://www.youtube.com/embed/CqjjLyk2j8E?autoplay=1',
+			url: 'CqjjLyk2j8E',
 			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
@@ -942,7 +942,7 @@ const curses = [
 			'how to START the add-on'
 		],
 		video: {
-			url: 'https://www.youtube.com/embed/r_w2zxqJT-w?autoplay=1',
+			url: 'r_w2zxqJT-w',
 			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
@@ -955,8 +955,8 @@ const curses = [
 		active: true,
 		title: 'How To Close All B1 Screen With One Click',
 		video: {
-			url: 'videos/050HowToCloseAllScreenWithOneClick.mp4',
-			type: 'mp4'
+			url: 'exlLgQcCrO4',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT'],
@@ -968,8 +968,8 @@ const curses = [
 		active: true,
 		title: 'How to Open an Order Received From B1',
 		video: {
-			url: 'videos/051HowtoOpenTheOrderReceivedFromB1.mp4',
-			type: 'mp4'
+			url: 'ASvo5XlC60I',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT'],
@@ -981,8 +981,8 @@ const curses = [
 		active: true,
 		title: 'How To Change G/L Account For All Currencies',
 		video: {
-			url: 'videos/052HowToChangeAccountForAllCurrencies.mp4',
-			type: 'mp4'
+			url: 'kRA0DphbfFs',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT'],
@@ -994,8 +994,8 @@ const curses = [
 		active: true,
 		title: 'Como Começar Uma Apresentação 1 de 2',
 		video: {
-			url: 'videos/053Como_começar_uma_apresentação_1de2.mp4',
-			type: 'mp4'
+			url: 'PyhCxhpSWG4',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1007,8 +1007,8 @@ const curses = [
 		active: true,
 		title: 'Como Começar Uma Apresentação 2 de 2',
 		video: {
-			url: 'videos/054Como_começar_uma_apresentação_2de2.mp4',
-			type: 'mp4'
+			url: 'zmy4AgsKq-0',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1020,8 +1020,8 @@ const curses = [
 		active: true,
 		title: 'Teclas de Atalhos 1 de 2',
 		video: {
-			url: 'videos/055Teclas_de_Atalho_do_MSPowerPoint_parte1.mp4',
-			type: 'mp4'
+			url: 'enHypPb4jmE',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1033,8 +1033,8 @@ const curses = [
 		active: true,
 		title: 'Teclas de Atalhos 2 de 2',
 		video: {
-			url: 'videos/056Teclas_de_Atalho_do_MSPowerPoint_parte2.mp4',
-			type: 'mp4'
+			url: 'n-8dvqiJ6MQ',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1046,8 +1046,8 @@ const curses = [
 		active: true,
 		title: 'Uso do Pincel De Formatação',
 		video: {
-			url: 'videos/057O_uso_do_Pincel_de_Formatacao.mp4',
-			type: 'mp4'
+			url: 'k2UW3S6K6is',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1059,8 +1059,8 @@ const curses = [
 		active: true,
 		title: 'Compactando Imagens em sua Apresentação',
 		video: {
-			url: 'videos/058Compactando_Imagens_em_sua_apresentacao.mp4',
-			type: 'mp4'
+			url: 'VTB7DFRp8cI',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1072,8 +1072,8 @@ const curses = [
 		active: true,
 		title: 'Como Ajustar um Conteudo de Outra Apresentação',
 		video: {
-			url: 'videos/059Como_ajustar_um_conteudo_de_outra_apresentacao.mp4',
-			type: 'mp4'
+			url: '7hlyNp3_HQQ',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1085,8 +1085,8 @@ const curses = [
 		active: true,
 		title: 'Trabalhando com Tabelas em Seus Slides',
 		video: {
-			url: 'videos/060Trabalhando_com_tabelas_em_seus_slides.mp4',
-			type: 'mp4'
+			url: 'XUl4fOYSTys',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1098,8 +1098,8 @@ const curses = [
 		active: true,
 		title: 'Como Organizar Sua Apresentação em Seções',
 		video: {
-			url: 'videos/061Como_organizar_sua_apresentação_em_Secoes.mp4',
-			type: 'mp4'
+			url: 'IgTuQ9IbgwM',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1111,8 +1111,8 @@ const curses = [
 		active: true,
 		title: 'Como Criar Efeito De Zoom',
 		video: {
-			url: 'videos/062Como_criar_o_efeito_de_zoom.mp4',
-			type: 'mp4'
+			url: '1S51wfrD91Y',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1124,8 +1124,8 @@ const curses = [
 		active: true,
 		title: 'Como Mesclar Formas',
 		video: {
-			url: 'videos/063Como_mesclar_formas.mp4',
-			type: 'mp4'
+			url: 'Hanq13siySA',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1137,8 +1137,8 @@ const curses = [
 		active: true,
 		title: 'Atalhos Modo Apresentação',
 		video: {
-			url: 'videos/064Atalhos_Modo_Apresentacao.mp4',
-			type: 'mp4'
+			url: 'AXLTLCFKECc',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1150,8 +1150,8 @@ const curses = [
 		active: true,
 		title: 'Usar Intervalos no Modo Apresentação',
 		video: {
-			url: 'videos/065Usar_intervalos_no_modo_apresentacao.mp4',
-			type: 'mp4'
+			url: 'yfslyEg3hWM',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1163,8 +1163,8 @@ const curses = [
 		active: true,
 		title: 'Harmonize as Cores de sua Apresentação',
 		video: {
-			url: 'videos/066Harmonize_as_cores_de_sua_apresentacao.mp4',
-			type: 'mp4'
+			url: 'Ew9qcEStpoo',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1176,8 +1176,8 @@ const curses = [
 		active: true,
 		title: 'Fuso Horário Adicional em Seu Calendário',
 		video: {
-			url: 'videos/067Fuso_Horario_Adicional_em_seu_Calendario.mp4',
-			type: 'mp4'
+			url: 'lK5io1czMYw',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1189,8 +1189,8 @@ const curses = [
 		active: true,
 		title: 'Etapas Rápidas do MSOutlook',
 		video: {
-			url: 'videos/068Etapas_Rapidas_do_MSOutlook.mp4',
-			type: 'mp4'
+			url: 'oG9BhbQiMCk',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1202,8 +1202,8 @@ const curses = [
 		active: true,
 		title: 'Email não Aceita Formatação',
 		video: {
-			url: 'videos/069Email_nao_aceita_formatacao.mp4',
-			type: 'mp4'
+			url: 'FoT4Eho22LM',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1215,8 +1215,8 @@ const curses = [
 		active: true,
 		title: 'Como Atrasar o Envio de Mensagens',
 		video: {
-			url: 'videos/070Como_atrasar_o_envio_de_mensagens.mp4',
-			type: 'mp4'
+			url: 'HXyyr-rrqSc',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1228,8 +1228,8 @@ const curses = [
 		active: true,
 		title: 'Marque Reuniões com Apenas Clique',
 		video: {
-			url: 'videos/071Marque_reunioes_com_apenas_1clique.mp4',
-			type: 'mp4'
+			url: 'G9lr0IzJ3K0',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1241,8 +1241,8 @@ const curses = [
 		active: true,
 		title: 'Uso de Regras',
 		video: {
-			url: 'videos/072O_Uso_de_Regras_do_MSOutlook.mp4',
-			type: 'mp4'
+			url: '-c5j5YQucLQ',
+			type: 'youtube'
 		},
 		author: 'Fabio Arakava',
 		lang: ['PT'],
@@ -1254,8 +1254,8 @@ const curses = [
 		active: true,
 		title: 'How to mack collecive release',
 		video: {
-			url: 'videos/073Howtomakecollectiverelease_MM.mp4',
-			type: 'mp4'
+			url: 'hBO6zGPCtrE',
+			type: 'youtube'
 		},
 		author: 'Celso Rosa',
 		lang: ['EN'],
@@ -1267,8 +1267,8 @@ const curses = [
 		active: true,
 		title: 'Acess report CPVA',
 		video: {
-			url: 'videos/074CPVABOAccessFI.mp4',
-			type: 'mp4'
+			url: '-0Adoyo85lk',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN'],
@@ -1280,8 +1280,8 @@ const curses = [
 		active: true,
 		title: 'Filter by report data CPVA',
 		video: {
-			url: 'videos/075CPVABOFilterbyReportData_FI.mp4',
-			type: 'mp4'
+			url: 'axZDy5H0J9s',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN'],
@@ -1293,8 +1293,8 @@ const curses = [
 		active: true,
 		title: 'Filter by Product or Customer CPVA',
 		video: {
-			url: 'videos/076CPVABOFilterbyProductorCustomer_FI.mp4',
-			type: 'mp4'
+			url: 'c7l2RV5_7dU',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN'],
@@ -1306,8 +1306,8 @@ const curses = [
 		active: true,
 		title: 'Filters in Refresh CPVA',
 		video: {
-			url: 'videos/077CPVABOFiltersinRefresh_FI.mp4',
-			type: 'mp4'
+			url: 'a-X8MHXoI08',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN'],
@@ -1319,8 +1319,8 @@ const curses = [
 		active: true,
 		title: 'Reports CPVA ',
 		video: {
-			url: 'videos/078CPVA_BO_Reports_FI.mp4',
-			type: 'mp4'
+			url: '_1DsrZm7Q3A',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN'],
@@ -1332,8 +1332,8 @@ const curses = [
 		active: true,
 		title: 'Customer Master Data',
 		video: {
-			url: 'videos/079CustomerMasterData_SD.mp4',
-			type: 'mp4'
+			url: '8Q04WmoB4aA',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN'],
@@ -1345,8 +1345,8 @@ const curses = [
 		active: true,
 		title: 'Terms and Conditions for quotation',
 		video: {
-			url: 'videos/080SO10_SD.mp4',
-			type: 'mp4'
+			url: 'LAIcVyKGhqY',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN'],
@@ -1359,8 +1359,8 @@ const curses = [
 		title: 'Sales Order Overview',
 		subTitle: 'Navigating through the sales order - VA03',
 		video: {
-			url: 'videos/081Navigatingthroughthesalesorder_SD.mp4',
-			type: 'mp4'
+			url: 'SAuXQDjnT9g',
+			type: 'youtube'
 		},
 		author: 'Denise basegio de Freitas',
 		lang: ['EN'],
@@ -1373,8 +1373,8 @@ const curses = [
 		title: 'Sales Contract' ,
 		subTitle: 'How to create a sales contract - VA41',
 		video: {
-			url: 'videos/082VA41_SALESCONTRACT_V1_SD.mp4',
-			type: 'mp4'
+			url: 'TgrD7gx23LY',
+			type: 'youtube'
 		},
 		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
@@ -1387,8 +1387,8 @@ const curses = [
 		title: 'IDOC Orders Monitor',
 		subTitle: 'Monitor of automactic orders entry (Easy, EDI and API) - ZTSD257',
 		video: {
-			url: 'videos/083ZTSD257IDOCOrdersMonitor_SD.mp4',
-			type: 'mp4'
+			url: 'RdBHytK9Xcw',
+			type: 'youtube'
 		},
 		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
@@ -1401,8 +1401,8 @@ const curses = [
 		title: 'Sales Contract Report',
 		subTitle: 'Follow up of Sales Contracts - ZTSD297',
 		video: {
-			url: 'videos/084ZTSD297Salescontractfollowup_SD.mp4',
-			type: 'mp4'
+			url: 'LQIsFoaM4GE',
+			type: 'youtube'
 		},
 		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
@@ -1415,8 +1415,8 @@ const curses = [
 		title: 'Saneamento Visões Vendas',
 		subTitle: 'Transactions: MM02, ',
 		video: {
-			url: 'videos/085SaneamentoVisõesVendas_SD.mp4',
-			type: 'mp4'
+			url: 'N-4bTPip3wA',
+			type: 'youtube'
 		},
 		author: 'Denise basegio de Freitas',
 		lang: ['PT'],
@@ -1429,8 +1429,8 @@ const curses = [
 		title: 'Outbound delivery Monitor',
 		subTitle: 'Follow up of orders ready to be deliveried - VL10G',
 		video: {
-			url: 'videos/086VL10GOutbounddeliveryMonitor_V1_SD.mp4',
-			type: 'mp4'
+			url: 'M3FaRyVybQY',
+			type: 'youtube'
 		},
 		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
@@ -1443,8 +1443,8 @@ const curses = [
 		title: 'Billing document monitor',
 		subTitle: 'Follow up of Billing Documents - VF04',
 		video: {
-			url: 'videos/087VF04Billingdocumentmonitor_V1_SD.mp4',
-			type: 'mp4'
+			url: 'xwn4qvuzYr8',
+			type: 'youtube'
 		},
 		author: 'Felipe Sousa de Paula',
 		lang: [''],
@@ -1457,8 +1457,8 @@ const curses = [
 		title: 'How to Check Purchasing Documents',
 		subTitle: 'Using the transaction ME2M you will learn how to list Puchase Order Documents',
 		video: {
-			url: 'videos/088Howtocheckpurchasingdocuments_MM.mp4',
-			type: 'mp4'
+			url: 'SNXXf4XhpFo',
+			type: 'youtube'
 		},
 		author: 'Celso Ednei da Rosa',
 		lang: [''],
@@ -1471,8 +1471,8 @@ const curses = [
 		title: 'Material Transfer Post',
 		subTitle: 'MB1B - Material Transfer Post Between Storages Location',
 		video: {
-			url: 'videos/089MB1B_MM.mp4',
-			type: 'mp4'
+			url: 'KGrH3_qUwsc',
+			type: 'youtube'
 		},
 		author: 'Celso Ednei da Rosa',
 		lang: [''],
@@ -1485,8 +1485,8 @@ const curses = [
 		title: 'Extend a Vendor',
 		subTitle: 'Transaction XK01 - Hot to extend a Vendor',
 		video: {
-			url: 'videos/090XK01_MM.mp4',
-			type: 'mp4'
+			url: 'SptvPpN0yiE',
+			type: 'youtube'
 		},
 		author: 'Celso Ednei da Rosa',
 		lang: [''],
@@ -1499,8 +1499,8 @@ const curses = [
 		title: 'Goods Receipt based on Shipping Document',
 		subTitle: 'Transaction ZTMM173',
 		video: {
-			url: 'videos/091ZTMM173_MM.mp4',
-			type: 'mp4'
+			url: 'zQGCtjFc5qc',
+			type: 'youtube'
 		},
 		author: 'Celso Ednei da Rosa',
 		lang: [''],
@@ -1513,8 +1513,8 @@ const curses = [
 		title: 'How to post inventory count',
 		subTitle: 'How to post inventory count MI07 - MI20',
 		video: {
-			url: 'videos/092MI07_MI20Howopostinventorycount_MM.mp4',
-			type: 'mp4'
+			url: 'CXzxZdURTUo',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1527,8 +1527,8 @@ const curses = [
 		title: 'How to enter physical inventory count',
 		subTitle: 'MI04 - How to enter physical inventory count',
 		video: {
-			url: 'videos/093MI04Howtoenterphysicalinventorycount_MM.mp4',
-			type: 'mp4'
+			url: 'SnB_YAIBfPw',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1541,8 +1541,8 @@ const curses = [
 		title: 'How to create a Purchase Requisition',
 		subTitle: 'ME51N - How to create a Purchase Requisition',
 		video: {
-			url: 'videos/094ME51NHowtocreateaPurchaseRequisition_MM.mp4',
-			type: 'mp4'
+			url: 'uzkhtspaMiU',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1555,8 +1555,8 @@ const curses = [
 		title: 'Search Material by Class',
 		subTitle: 'How to Search Material by Class - transaction CL30N',
 		video: {
-			url: 'videos/095CL30NMaterialsSearchbyClass_PLM.mp4',
-			type: 'mp4'
+			url: 'vRn66RS9Tf3c',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1569,8 +1569,8 @@ const curses = [
 		title: 'Track Work flow of Material Master Data',
 		subTitle: 'ZTMM069 - How to Track Work flow of Material Master Data',
 		video: {
-			url: 'videos/096ZTMM069HowtoTrackWorkflowofMaterialMasterData_MDM.mp4',
-			type: 'mp4'
+			url: 'sf_RitzeVq4',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1583,8 +1583,8 @@ const curses = [
 		title: 'Expand Material Master Data ZTMM020',
 		subTitle: 'ZTMM020 - How to Request to Expand Material Master Data',
 		video: {
-			url: 'videos/097ZTMM020HowtoExpandMaterialMasterData_MDM.mp4',
-			type: 'mp4'
+			url: 'MFfjanO6rQ0',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1597,8 +1597,8 @@ const curses = [
 		title: 'Change Material Master Data',
 		subTitle: 'ZTMM020 - How to Request to Change Material Master Data',
 		video: {
-			url: 'videos/098ZTMM020HowtoChangeMaterialMasterData_MDM.mp4',
-			type: 'mp4'
+			url: 'CpghzlpdyGU',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1611,8 +1611,8 @@ const curses = [
 		title: 'Elimante Material Master Data',
 		subTitle: 'ZTMM020 - How to request to Elimante Material Master Data',
 		video: {
-			url: 'videos/099ZTMM020HowtoElimanteMaterialMasterData_MDM.mp4',
-			type: 'mp4'
+			url: 'AT2NmBL2Rt8',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1625,8 +1625,8 @@ const curses = [
 		title: 'Work flow in SAP Business Work place SBWP',
 		subTitle: 'How to manage workflows with SBWP transaction',
 		video: {
-			url: 'videos/100SBWPWorkflowinSAPBusinessWorkplace_MDM.mp4',
-			type: 'mp4'
+			url: 'ETIraIfLdhc',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1644,8 +1644,8 @@ const curses = [
 			'Calendars are used in serveral SAP modules'
 		],
 		video: {
-			url: 'videos/101SCALHowtocreateholiday_PP.mp4',
-			type: 'mp4'
+			url: 'T7smZnu2XXY',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1663,8 +1663,8 @@ const curses = [
 			'Calendars are used in serveral SAP modules'
 		],
 		video: {
-			url: 'videos/102SCALHowtocreateholidayscalendars_PP.mp4',
-			type: 'mp4'
+			url: '6v4XdDoy5lE.mp4',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1682,8 +1682,8 @@ const curses = [
 			'Calendars are used in serveral SAP modules'
 		],
 		video: {
-			url: 'videos/103SCALHowtoCreatecalendars_PP.mp4',
-			type: 'mp4'
+			url: 'videos/H40T0_DYJsY.mp4',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1696,8 +1696,8 @@ const curses = [
 		title: 'How to set non working days',
 		subTitle: 'SCAL - How to set non working days',
 		video: {
-			url: 'videos/104SCALHowtosetnonworkingdays_PP.mp4',
-			type: 'mp4'
+			url: 'pJGTmAN_h4A',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1710,8 +1710,8 @@ const curses = [
 		title: 'How to manage user data',
 		subTitle: 'Transation SU3',
 		video: {
-			url: 'videos/105SU3Howtomanageuserdata_BASIC.mp4',
-			type: 'mp4'
+			url: 'D7pwgZpSNM0',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1724,8 +1724,8 @@ const curses = [
 		title: 'How to Confirm Production Order',
 		subTitle: 'CO11N - Enter confirmation for production order',
 		video: {
-			url: 'videos/106CO11NHowtoConfirmOrder_PP.mp4',
-			type: 'mp4'
+			url: 'SGggo3vuAZk',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1738,8 +1738,8 @@ const curses = [
 		title: 'How to Confirm Production Order CO15',
 		subTitle: 'CO15 - How to enter production order confirmation',
 		video: {
-			url: 'videos/107CO15HowtoConfirmProductionOrder_PP.mp4',
-			type: 'mp4'
+			url: 'BWtt2jg037M',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1752,8 +1752,8 @@ const curses = [
 		title: 'How to cancel production order confirmations',
 		subTitle: 'CO13 - How to cancel production order confirmations',
 		video: {
-			url: 'videos/108CO13Howtocancelproductionorderconfirmations_PP.mp4',
-			type: 'mp4'
+			url: 'bT7A8hmsl7U',
+			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
 		lang: [''],
@@ -1766,8 +1766,8 @@ const curses = [
 		title: 'Create Production Order type ZMS1 CO01',
 		subTitle: 'Create a new production order for stock of type ZMS1. Transaction CO01',
 		video: {
-			url: 'videos/109CO01CreateProductionOrderZMS1type_PP.mp4',
-			type: 'mp4'
+			url: 'bz9EW--IQUM',
+			type: 'youtube'
 		},
 		author: 'Omero Müller',
 		lang: [''],
@@ -1780,8 +1780,8 @@ const curses = [
 		title: 'MRP execution MD01',
 		subTitle: 'Run MRP for a plant with MD01 transation',
 		video: {
-			url: 'videos/110MRPexecutionMD01_PP.mp4',
-			type: 'mp4'
+			url: 'HZsiqLoHKdo',
+			type: 'youtube'
 		},
 		author: 'Omero Müller',
 		lang: [''],
@@ -2547,7 +2547,7 @@ const curses = [
 			'How use a SAP report and export to Excel',
 		],
 		video: {
-			url: 'https://www.youtube.com/embed/pD1fHzzISA4?autoplay=1',
+			url: 'pD1fHzzISA4',
 			type: 'youtube'
 		},
 		author: 'Yuri Odebrecht',
@@ -2575,7 +2575,7 @@ const curses = [
 		title: 'Consulta de estoque - LX02',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/Ez-yRQjroBg?autoplay=1',
+			url: 'Ez-yRQjroBg',
 			type: 'youtube'
 		},
 		author: 'Daniel Tironi',
@@ -2588,7 +2588,7 @@ const curses = [
 		title: 'Teste Youtube EN',
 		subTitle: '',
 		video: {
-			url: 'https://www.youtube.com/embed/lUmfWoQ_sKw?autoplay=1',
+			url: 'lUmfWoQ_sKw',
 			type: 'youtube'
 		},
 		author: 'teste',

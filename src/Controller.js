@@ -104,6 +104,16 @@ function FilterCurses(filterData) {
         if (curse.video.url && curse.video.url.toLowerCase().includes(textToFilter)){
             return true
         }
+
+        if (curse.topics) {
+            const res = curse.topics.find( topic => ReplaceSpecialChar(topic.toLowerCase()).includes(textToFilter))
+            if (res) return true
+        }
+        
+        if (curse.processTree) {
+            const res = curse.processTree.find( process => ReplaceSpecialChar(process.toLowerCase()).includes(textToFilter))
+            if (res) return true
+        }
         
         return false
     })
@@ -111,10 +121,11 @@ function FilterCurses(filterData) {
 }
 
 function CheckCurseParamOnUrl(){
-	var urlParams = {};
-    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+	var urlParams = {}
+    
+    window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
         urlParams[key] = value;
-	});
+	})
 
     if (urlParams.grpId) {
         setActiveGrouper(urlParams.grpId)
