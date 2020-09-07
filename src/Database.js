@@ -7,12 +7,12 @@ const groupers = [
 			{
 				id: 1, 
 				desc: 'BASICS',
-				curseIds: [100, 105, 135, 153, 156, 157]
+				curseIds: [416, 100, 105, 135, 153, 156]
 			},
 			{
 				id: 2, 
 				desc: 'MASTER DATA',
-				curseIds: [96, 97, 98, 99, 111, 125, 126, 127, 128, 129]
+				curseIds: [96, 97, 98, 99, 111, 125, 126, 127, 128, 129, 159]
 			},
 			{
 				id: 3, 
@@ -22,7 +22,7 @@ const groupers = [
 			{
 				id: 4, 
 				desc: 'LOGISTICS',
-				curseIds: [86, 87, 158, 159]
+				curseIds: [86, 87]
 			},
 			{
 				id: 5, 
@@ -32,7 +32,7 @@ const groupers = [
 			{
 				id: 6, 
 				desc: 'PURCHASES',
-				curseIds: [73, 88, 89, 90, 91, 92, 93, 94]
+				curseIds: [73, 88, 89, 90, 91, 92, 93, 94, 160]
 			},
 			{
 				id: 7, 
@@ -95,7 +95,7 @@ const groupers = [
 			{
 				id: 2, 
 				desc: 'MASTER DATA',
-				curseIds: [29, 39, 43]
+				curseIds: [29, 39, 43, 164]
 			},
 			{
 				id: 3, 
@@ -162,6 +162,21 @@ const groupers = [
 				id: 9, 
 				desc: 'WBS CHART PRO',
 				curseIds: [144]
+			},
+			{
+				id: 10, 
+				desc: 'SAP HANA STUDIO',
+				curseIds: [157, 158]
+			},
+			{
+				id: 11, 
+				desc: 'APS DRUMMER',
+				curseIds: [161, 162, 163]
+			},
+			{
+				id: 12,
+				desc: 'TESTS',
+				curseIds: [980, 990, 991, 992, 993]
 			}
 		]
 	}
@@ -622,8 +637,8 @@ const curses = [
 		title: 'Create an Itemcode via SAP ECC',
 		subTitle: '',
 		video: {
-			url: 'videos/027TransferItemfromECCtoB1.swf',
-			type: 'swf'
+			url: 'https://www.youtube.com/embed/qwaVkZzMM7g?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN']
@@ -636,8 +651,8 @@ const curses = [
 		title: 'Change SAP B1 Password',
 		subTitle: '',
 		video: {
-			url: 'videos/028How_to_Change_Password.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/N0vFfFOEE6U?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -649,8 +664,8 @@ const curses = [
 		title: 'List Items w/o Local Product Family',
 		subTitle: '',
 		video: {
-			url: 'videos/029How_To_List_All_Items_Without_Local_Product_Family.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/iharEUZX5xg?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -662,8 +677,8 @@ const curses = [
 		title: 'Approve an Approval Request',
 		subTitle: '',
 		video: {
-			url: 'videos/030How_to_Approve_an_Approval_Request.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/clP6i1wXc48?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN', 'ES', 'PT']
@@ -675,8 +690,8 @@ const curses = [
 		title: 'Refuse an Approval Request',
 		subTitle: '',
 		video: {
-			url: 'videos/031How_ to_Refuse_an_Approval_Request.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/oHBYAkB4ays?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN', 'ES', 'PT']
@@ -688,8 +703,8 @@ const curses = [
 		title: 'Search an Item by BP Catalog Number',
 		subTitle: '',
 		video: {
-			url: 'videos/032How_to_seacher_an_item_code_with_BP_catalog_number.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/TPLVkyU1bjE?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -701,8 +716,8 @@ const curses = [
 		title: 'Picklist Proposal Manager',
 		subTitle: '',
 		video: {
-			url: 'videos/033Picklist_Using_Picklist_Proposal_Manager.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/4IBbgJ5qWiQ?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -718,8 +733,8 @@ const curses = [
 			'This is the standard process to perform this action'
 		],
 		video: {
-			url: 'videos/034Receive_PO_manually_using_Scanners.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/scokGnCUDP4?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -731,8 +746,8 @@ const curses = [
 		title: 'Goods Return Based on Delivery Note',
 		subTitle: 'How execute a return when we have only delivery note created',
 		video: {
-			url: 'videos/035Return_based_on_Delivery_Note.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/zqNr3oFACXc?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -744,8 +759,8 @@ const curses = [
 		title: 'Container Receipt',
 		subTitle: 'How receive goods in warehouse from a container',
 		video: {
-			url: 'videos/036Container_Receipt.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/87smRnwJJjo?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -761,8 +776,8 @@ const curses = [
 			'This procedure is used as exception, once is manual and should be performed one by one'
 		],
 		video: {
-			url: 'videos/037Picklist_Created_Inside_SO.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/-nSEe_mPFlQ?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Elcio Lotito Junior',
 		lang: ['EN']
@@ -774,8 +789,8 @@ const curses = [
 		title: 'Create a Credit Note',
 		subTitle: '',
 		video: {
-			url: 'videos/038Create_a_Credit_Note.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/9ii9AyF-fPU?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -787,8 +802,8 @@ const curses = [
 		title: 'Fixed Assets Master Data',
 		subTitle: '',
 		video: {
-			url: 'videos/039FixedAssetsMasterData.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/krb22cG6GWQ?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -800,8 +815,8 @@ const curses = [
 		title: 'Create a Journal Voucher',
 		subTitle: '',
 		video: {
-			url: 'videos/040CreateJournalVoucher.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/2k4JO_pA8I8?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -813,8 +828,8 @@ const curses = [
 		title: 'How to Make Payment On Account',
 		subTitle: '',
 		video: {
-			url: 'videos/041Payment_On_Account.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/wE-epwfyqe4?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -826,8 +841,8 @@ const curses = [
 		title: 'Create a New Payment Terms',
 		subTitle: '',
 		video: {
-			url: 'videos/042PaymentTermsCreation.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/IBri4spXPtA?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -839,8 +854,8 @@ const curses = [
 		title: 'Search and Create a BP (ECC/B1)',
 		subTitle: '',
 		video: {
-			url: 'videos/043SearchAndCreateBpOnSAPB1.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/HzMW1r2sx50?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -852,8 +867,8 @@ const curses = [
 		title: 'How to Split Pallets',
 		subTitle: '',
 		video: {
-			url: 'videos/044HowToSplitPallets.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/XQWhRljQEso?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Gabrielle Moretti Santandrea',
 		lang: ['EN']
@@ -865,8 +880,8 @@ const curses = [
 		title: 'How To Add Columns In Document',
 		subTitle: '',
 		video: {
-			url: 'videos/045HowToAddColumnsInDocument.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/s_YRAf64pZM?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -878,8 +893,8 @@ const curses = [
 		title: 'How To Export Data To Excel',
 		subTitle: '',
 		video: {
-			url: 'videos/046HowToExportToExcel.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/U41ZtVB6AgE?autoplay=1',
+			type: 'youtube'
 		},
 		author: '',
 		lang: ['EN']
@@ -891,8 +906,8 @@ const curses = [
 		title: 'How To Create a System Improvement Request',
 		subTitle: '',
 		video: {
-			url: 'videos/047HowToCreateImprovementRequest.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/yYNYUXImGo0?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT']
@@ -908,8 +923,8 @@ const curses = [
 			'how to START the add-on'
 		],
 		video: {
-			url: 'videos/048HowToRe-StartBoyumAdd-on.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/CqjjLyk2j8E?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT'],
@@ -927,8 +942,8 @@ const curses = [
 			'how to START the add-on'
 		],
 		video: {
-			url: 'videos/049HowToRe-StartProdumexAdd-on.mp4',
-			type: 'mp4'
+			url: 'https://www.youtube.com/embed/r_w2zxqJT-w?autoplay=1',
+			type: 'youtube'
 		},
 		author: 'Dionei J. Delagnolo',
 		lang: ['EN', 'ES', 'PT'],
@@ -1341,118 +1356,127 @@ const curses = [
 	{
 		id: 81,
 		active: true,
-		title: 'Navigating through the sales order',
+		title: 'Sales Order Overview',
+		subTitle: 'Navigating through the sales order - VA03',
 		video: {
 			url: 'videos/081Navigatingthroughthesalesorder_SD.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Denise basegio de Freitas',
 		lang: ['EN'],
-		postedOn: '15.01.2020'
+		postedOn: '2020-01-15'
 	},
 
 	{
 		id: 82,
 		active: true,
-		title: 'SALES CONTRACT- VA41' ,
+		title: 'Sales Contract' ,
+		subTitle: 'How to create a sales contract - VA41',
 		video: {
 			url: 'videos/082VA41_SALESCONTRACT_V1_SD.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
-		postedOn: '15.01.2020'
+		postedOn: '2019-11-25'
 	},
 
 	{
 		id: 83,
 		active: true,
-		title: 'IDOC Orders Monitor - ZTSD257 ',
+		title: 'IDOC Orders Monitor',
+		subTitle: 'Monitor of automactic orders entry (Easy, EDI and API) - ZTSD257',
 		video: {
 			url: 'videos/083ZTSD257IDOCOrdersMonitor_SD.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
-		postedOn: '15.01.2020'
+		postedOn: '2019-11-25'
 	},
 
 	{
 		id: 84,
 		active: true,
-		title: 'Sales contract follow-up ZTSD297',
+		title: 'Sales Contract Report',
+		subTitle: 'Follow up of Sales Contracts - ZTSD297',
 		video: {
 			url: 'videos/084ZTSD297Salescontractfollowup_SD.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
-		postedOn: '15.01.2020'
+		postedOn: '2019-11-25'
 	},
 
 	{
 		id: 85,
 		active: true,
 		title: 'Saneamento Visões Vendas',
+		subTitle: 'Transactions: MM02, ',
 		video: {
 			url: 'videos/085SaneamentoVisõesVendas_SD.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Denise basegio de Freitas',
 		lang: ['PT'],
-		postedOn: '15.01.2020'
+		postedOn: '2020-01-15'
 	},
 
 	{
 		id: 86,
 		active: true,
-		title: 'Outbound delivery Monitor - VL10G',
+		title: 'Outbound delivery Monitor',
+		subTitle: 'Follow up of orders ready to be deliveried - VL10G',
 		video: {
 			url: 'videos/086VL10GOutbounddeliveryMonitor_V1_SD.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Felipe Sousa de Paula',
 		lang: ['EN'],
-		postedOn: '15.01.2020'
+		postedOn: '2019-11-27'
 	},
 	
 	{
 		id: 87,
 		active: true,
-		title: 'Billing document monitor VF04',
+		title: 'Billing document monitor',
+		subTitle: 'Follow up of Billing Documents - VF04',
 		video: {
 			url: 'videos/087VF04Billingdocumentmonitor_V1_SD.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Felipe Sousa de Paula',
 		lang: [''],
-		postedOn: '2020-01-16'
+		postedOn: '2019-11-27'
 	},
 	
 	{
 		id: 88,
 		active: true,
-		title: 'How to check purchasing documents',
+		title: 'How to Check Purchasing Documents',
+		subTitle: 'Using the transaction ME2M you will learn how to list Puchase Order Documents',
 		video: {
 			url: 'videos/088Howtocheckpurchasingdocuments_MM.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Celso Ednei da Rosa',
 		lang: [''],
-		postedOn: '2020-01-16'
+		postedOn: '2019-11-28'
 	},
 	
 	{
 		id: 89,
 		active: true,
-		title: 'MB1B',
+		title: 'Material Transfer Post',
+		subTitle: 'MB1B - Material Transfer Post Between Storages Location',
 		video: {
 			url: 'videos/089MB1B_MM.mp4',
 			type: 'mp4'
 		},
-		author: '',
+		author: 'Celso Ednei da Rosa',
 		lang: [''],
-		postedOn: '2020-01-16'
+		postedOn: '2019-11-29'
 	},
 	
 	{
@@ -1481,20 +1505,6 @@ const curses = [
 		author: 'Celso Ednei da Rosa',
 		lang: [''],
 		postedOn: '2019-11-29'
-	},
-	
-	{
-		id: 92,
-		active: true,
-		title: 'How to create physical inventory document',
-		subTitle: 'How to create physical inventory document - MI01',
-		video: {
-			url: 'videos/092MI01Howtocreatephysicalinventorydocument_MM.mp4',
-			type: 'mp4'
-		},
-		author: 'Yuri Odebrecht',
-		lang: [''],
-		postedOn: '2020-01-16'
 	},
 	
 	{
@@ -2404,45 +2414,200 @@ const curses = [
 	{
 		id: 157,
 		active: true,
-		title: 'PDF',
-		subTitle: '',
+		title: 'How to install SAP Hana Studio',
+		subTitle: 'How to install SAP Hana Studio',
 		video: {
-			url: 'videos/B1.pdf',
-			type: 'pdf'
+			url: 'videos/157How_to_install_SAP_HANA_Studio.mp4',
+			type: 'mp4'
 		},
-		author: '',
+		author: 'Dionei J. Delagnolo',
 		lang: ['PT'],
-		postedOn: ''
+		postedOn: '20200415'
 	},
 	{
 		id: 158,
 		active: true,
-		title: 'PDF',
-		subTitle: '',
+		title: 'How to Connect a SAP Hana Server',
+		subTitle: 'How to Connect a SAP Hana Server',
 		video: {
-			url: 'videos/DocWMJack.pdf',
-			type: 'pdf'
+			url: 'videos/158How_to_connect_a_Hana_Server.mp4',
+			type: 'mp4'
 		},
-		author: '',
+		author: 'Dionei J. Delagnolo',
 		lang: ['PT'],
-		postedOn: ''
+		postedOn: '20200415'
 	},
 	{
 		id: 159,
 		active: true,
-		title: 'HTML',
+		title: 'Create a new vendor',
 		subTitle: '',
 		video: {
-			url: 'videos/FluxosFull.html',
-			type: 'html'
+			url: 'videos/159Create_vendor.mp4',
+			type: 'mp4'
 		},
-		author: '',
+		author: 'Moacir Fachini Jr',
+		lang: ['EN'],
+		postedOn: '20200512'
+	},
+	{
+		id: 160,
+		active: true,
+		title: 'Analyze needs of purshasing',
+		subTitle: '',
+		video: {
+			url: 'videos/160Analyze_needs_of_purshasing.mp4',
+			type: 'mp4'
+		},
+		author: 'Moacir Fachini Jr',
+		lang: ['EN'],
+		postedOn: '20200514'
+	},
+	{
+		id: 161,
+		active: true,
+		title: 'Arquitetura Drummer',
+		subTitle: '',
+		video: {
+			url: 'videos/161APSDrummer8Arquitetura.mp4',
+			type: 'mp4'
+		},
+		author: 'Heitor Luis Fontolan Reinoso',
 		lang: ['PT'],
-		postedOn: ''
+		postedOn: '20200605'
+	},
+	{
+		id: 162,
+		active: true,
+		title: 'Redução De Preparação',
+		subTitle: '',
+		video: {
+			url: 'videos/162APSDrummer8ReducaoDePreparacao.mp4',
+			type: 'mp4'
+		},
+		author: 'Heitor Luis Fontolan Reinoso',
+		lang: ['PT'],
+		postedOn: '20200605'
+	},
+	{
+		id: 163,
+		active: true,
+		title: 'Cenários',
+		subTitle: '',
+		video: {
+			url: 'videos/163APSDrummer8Cenarios.mp4',
+			type: 'mp4'
+		},
+		author: 'Heitor Luis Fontolan Reinoso',
+		lang: ['PT'],
+		postedOn: '20200605'
+	},
+	{
+		id: 164,
+		active: true,
+		title: 'How To Check Inactive Customers',
+		subTitle: '',
+		video: {
+			url: 'videos/164HowToCheckInactiveCustomers.mp4',
+			type: 'mp4'
+		},
+		author: 'Dionei J. Delagnolo',
+		lang: ['En, ES'],
+		postedOn: '20200706'
+	},
+	
+	{
+		id: 165,
+		active: true,
+		title: 'How to create physical inventory document',
+		subTitle: 'How to create physical inventory document - MI01',
+		video: {
+			url: 'videos/165MI01Howtocreatephysicalinventorydocument_MM.mp4',
+			type: 'mp4'
+		},
+		author: 'Yuri Odebrecht',
+		lang: [''],
+		postedOn: '2020-01-16'
 	},
 
 
+	{
+		id: 416,
+		active: true,
+		title: 'Getting started in SAP ECC',
+		subTitle: 'At the end of this session, you will be able to:',
+		topics: [
+			'Log on to SAP via MyWEG',
+			'Surfing the SAP Menus',
+			'How to save a transaction as favority',
+			'Basic keyboard commands ',
+			'How to use the Match Code',
+			'How to Open the SAP Help for the fields',
+			'Set personal settings',
+			'How use a SAP report and export to Excel',
+		],
+		video: {
+			url: 'https://www.youtube.com/embed/pD1fHzzISA4?autoplay=1',
+			type: 'youtube'
+		},
+		author: 'Yuri Odebrecht',
+		lang: [''],
+		postedOn: '2020-09-01'
+	},
 
+
+	{
+		id: 980,
+		active: true,
+		title: 'Teste Pdf',
+		subTitle: '',
+		video: {
+			url: 'videos/WMM-1012_PT_copianaocontrolada.pdf',
+			type: 'pdf'
+		},
+		author: 'teste',
+		lang: ['PT'],
+		postedOn: '20200605'
+	},
+	{
+		id: 990,
+		active: true,
+		title: 'Consulta de estoque - LX02',
+		subTitle: '',
+		video: {
+			url: 'https://www.youtube.com/embed/Ez-yRQjroBg?autoplay=1',
+			type: 'youtube'
+		},
+		author: 'Daniel Tironi',
+		lang: ['PT'],
+		postedOn: '20200605'
+	},
+	{
+		id: 991,
+		active: true,
+		title: 'Teste Youtube EN',
+		subTitle: '',
+		video: {
+			url: 'https://www.youtube.com/embed/lUmfWoQ_sKw?autoplay=1',
+			type: 'youtube'
+		},
+		author: 'teste',
+		lang: ['PT'],
+		postedOn: '20200605'
+	},
+	{
+		id: 992,
+		active: true,
+		title: 'Teste WEG Doc',
+		subTitle: '',
+		video: {
+			url: 'https://wegdoc.weg.net/se/document/dc_view_document/api_view_document.php?cddocument=87497&nmfile=WFR-37847_PT_1.mp4',
+			type: 'mp4'
+		},
+		author: 'teste',
+		lang: ['PT'],
+		postedOn: '20200605'
+	},
 	
 
 	
